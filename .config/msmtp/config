@@ -1,0 +1,11 @@
+account fukin.jim@gmail.com
+host smtp.gmail.com
+port 587
+from fukin.jim@gmail.com
+user fukin.jim@gmail.com
+passwordeval "pass fukin.jim@gmail.com"
+auth on
+tls on
+tls_trust_file	/etc/ssl/certs/ca-certificates.crt
+logfile /home/andrew/.config/msmtp/msmtp.log
+

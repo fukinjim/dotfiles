@@ -1,0 +1,3 @@
+rsync -a --delete --info=progress2 Storage/Tunes /run/media/andrew/6463-3832 ;; sync tunes to Fiio player
+youtube-dl -x --audio-format flac --audio-quality 0 ;; download songs from youtube
+youtube-dl -x --audio-format flac --download-archive ~/.config/youtube-dl/playlistname.txt ;; download playlist from youtube, saving a record of files downloaded

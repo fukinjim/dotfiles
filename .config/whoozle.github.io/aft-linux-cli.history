@@ -1,0 +1,15 @@
+help
+storage-list 
+storage "Internal shared storage" 
+storage "M11 Plus LTD Micro SD" 
+ls
+storage "Internal shared storage" 
+ls
+storage "M11 Plus LTD Micro SD" 
+ls
+cd 00--Music/ 
+ls
+help
+ls-r
+help
+exit

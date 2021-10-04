@@ -1,0 +1,12 @@
+{
+    "https://suckless.org/": "https://suckless.org/favicon.ico",
+    "https://suckless.org/hacking/": "https://suckless.org/favicon.ico",
+    "https://dwm.suckless.org/": "https://dwm.suckless.org/favicon.ico",
+    "https://dwm.suckless.org/customisation/": "https://dwm.suckless.org/favicon.ico",
+    "https://dwm.suckless.org/patches/": "https://dwm.suckless.org/favicon.ico",
+    "https://surf.suckless.org/": "https://surf.suckless.org/favicon.ico",
+    "https://tools.suckless.org/": "https://tools.suckless.org/favicon.ico",
+    "https://tools.suckless.org/dmenu/": "https://tools.suckless.org/favicon.ico",
+    "https://tools.suckless.org/dmenu/scripts/": "https://tools.suckless.org/favicon.ico",
+    "https://tools.suckless.org/dmenu/scripts/dmenu_run_with_command_history/": "https://tools.suckless.org/favicon.ico"
+}

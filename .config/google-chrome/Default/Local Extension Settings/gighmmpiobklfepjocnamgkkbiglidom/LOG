@@ -1,0 +1,18 @@
+2021/08/25-11:49:19.152 a117d Reusing MANIFEST /home/andrew/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2021/08/25-11:49:19.152 a117d Recovering log #91
+2021/08/25-11:49:19.158 a117d Reusing old log /home/andrew/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/000091.log 
+2021/08/25-11:50:20.522 a11a4 Level-0 table #95: started
+2021/08/25-11:50:20.568 a11a4 Level-0 table #95: 2023003 bytes OK
+2021/08/25-11:50:20.575 a11a4 Delete type=0 #91
+2021/08/25-12:27:55.562 a19d3 Compacting 1@1 + 1@2 files
+2021/08/25-12:27:55.590 a19d3 Generated table #96@1: 13 keys, 674599 bytes
+2021/08/25-12:27:55.590 a19d3 Compacted 1@1 + 1@2 files => 674599 bytes
+2021/08/25-12:27:55.596 a19d3 compacted to: files[ 1 0 1 0 0 0 0 ]
+2021/08/25-12:27:55.596 a19d3 Delete type=2 #92
+2021/08/25-12:27:55.596 a19d3 Delete type=2 #5
+2021/08/25-12:50:20.373 a26f1 Level-0 table #98: started
+2021/08/25-12:50:20.419 a26f1 Level-0 table #98: 2023189 bytes OK
+2021/08/25-12:50:20.423 a26f1 Delete type=0 #94
+2021/08/25-12:50:32.045 a2c74 Level-0 table #100: started
+2021/08/25-12:50:32.086 a2c74 Level-0 table #100: 2022097 bytes OK
+2021/08/25-12:50:32.090 a2c74 Delete type=0 #97

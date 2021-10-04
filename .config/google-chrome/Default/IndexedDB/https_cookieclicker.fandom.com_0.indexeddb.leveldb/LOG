@@ -1,0 +1,10 @@
+2021/08/25-11:50:56.205 a117d Reusing MANIFEST /home/andrew/.config/google-chrome/Default/IndexedDB/https_cookieclicker.fandom.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/08/25-11:50:56.205 a117d Recovering log #4
+2021/08/25-11:50:56.254 a117d Reusing old log /home/andrew/.config/google-chrome/Default/IndexedDB/https_cookieclicker.fandom.com_0.indexeddb.leveldb/000004.log 
+2021/08/25-13:44:38.991 a42b2 Level-0 table #8: started
+2021/08/25-13:44:39.020 a42b2 Level-0 table #8: 775491 bytes OK
+2021/08/25-13:44:39.025 a42b2 Delete type=0 #4
+2021/08/25-13:44:40.295 a42b2 Compacting 1@1 + 1@2 files
+2021/08/25-13:44:40.310 a42b2 Generated table #9@1: 127 keys, 7778 bytes
+2021/08/25-13:44:40.310 a42b2 Compacted 1@1 + 1@2 files => 7778 bytes
+2021/08/25-13:44:40.318 a42b2 compacted to: files[ 0 0 1 0 0 0 0 ]
