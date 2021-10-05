@@ -27,6 +27,8 @@ map <leader>c :set cursorline! cursorcolumn!<CR>
 " change vimrc on the fly
 nmap <leader>s :source $MYVIMRC <CR>
 nmap <leader>v :tabedit $MYVIMRC <CR>
+" auto source when writing to init.vm alternatively you can run :source $MYVIMRC
+au! BufWritePost $MYVIMRC source %      
 
 " Movements
 

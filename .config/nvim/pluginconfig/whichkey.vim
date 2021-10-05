@@ -35,5 +35,5 @@ wk.register({
     },
   },
 })
-
+--todo make whichkey ignore jj and kk in insert mode
 EOF

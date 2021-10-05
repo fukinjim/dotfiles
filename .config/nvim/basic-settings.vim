@@ -26,3 +26,5 @@ autocmd BufWinEnter *.* silent! loadview
 " Resize splits when the window is resized
 au VimResized * :wincmd =
 
+" Copy paste between vim and everything else
+set clipboard=unnamedplus               

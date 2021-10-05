@@ -134,11 +134,11 @@ label-connected = %essid%
 format-disconnected = No Interwebs
 format-disconnected-underline = ${colors.primary}
 
-ramp-signal-0 = 
+ramp-signal-0 = 睊
 ramp-signal-1 = 
-ramp-signal-2 = 
-ramp-signal-3 = 
-ramp-signal-4 = 
+ramp-signal-2 = 直
+ramp-signal-3 = 直
+ramp-signal-4 = 直
 ramp-signal-foreground = ${colors.foreground-alt}
 
 [module/date]
@@ -167,13 +167,13 @@ label-muted = 🔇 muted
 label-muted-foreground = #666
 
 bar-volume-width = 10
-bar-volume-foreground-0 = #1e90ff
-bar-volume-foreground-1 = #1e90ff
-bar-volume-foreground-2 = #1e90ff
-bar-volume-foreground-3 = #1c86ee
-bar-volume-foreground-4 = #1c86ee
-bar-volume-foreground-5 = #1874cd
-bar-volume-foreground-6 = #1874cd
+bar-volume-foreground-0 = ${xrdb:color1}
+bar-volume-foreground-1 = ${xrdb:color2}
+bar-volume-foreground-2 = ${xrdb:color2}
+bar-volume-foreground-3 = ${xrdb:color3}
+bar-volume-foreground-4 = ${xrdb:color3}
+bar-volume-foreground-5 = ${xrdb:color4}
+bar-volume-foreground-6 = ${xrdb:color4}
 bar-volume-gradient = true
 bar-volume-indicator = |
 bar-volume-indicator-font = 2

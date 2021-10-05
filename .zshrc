@@ -1,5 +1,6 @@
 # Command not found hook for pkgfile
 source /usr/share/doc/find-the-command/ftc.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # enable vim mode on commmand line
 bindkey -v
@@ -236,8 +237,10 @@ alias ..="cd .."
 alias getpath="find -type f | fzf | sed 's/^..//' | tr -d '\n' | xclip -selection c"
 alias ls="exa --icons -a --group-directories-first"
 alias nnn="nnn -c"
-alias pacman-install="pacman -Slq | fzf --multi --preview 'pacman -Si {1}' | xargs -ro sudo pacman -S"
-alias pacman-remove="pacman -Qq | fzf --multi --preview 'pacman -Qi {1}' | xargs -ro sudo pacman -Rns"
+alias install-pacman="pacman -Slq | fzf --multi --prompt='install > ' --preview 'pacman -Si {1}' | xargs -ro sudo pacman -S"
+alias remove-pacman="pacman -Qq | fzf --multi --prompt='uninstall > ' --preview 'pacman -Qi {1}' | xargs -ro sudo pacman -Rns"
+alias pacinfo="pacman -Qq | fzf --multi --prompt='package > ' --preview 'pacman -Qil {1}' | xargs -ro pacman -Qil"
+alias pacinfo-aur="pacman -Qqm | fzf --multi --prompt='package > ' --preview 'pacman -Qil {1}'"
 alias tmux="tmux -f $XDG_CONFIG_DIR/tmux/tmux.conf"
 alias tsp-backup="TS_SOCKET=/tmp/backup tsp"
 alias tsp-fiio="TS_SOCKET=/tmp/fiio tsp"
