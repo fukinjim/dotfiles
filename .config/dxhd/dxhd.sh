@@ -4,7 +4,7 @@
 # super + y 
 ytfzf -D
 
-## mpdmenu
+## mpdmenu / mpd
 # super + m
 mpdmenu
 # super + shift +m
@@ -17,56 +17,72 @@ mpdmenu -t
 mpdmenu -T
 # super + g
 mpdmenu -g
+## Open a floating instance of ncmpcpp
+#super + control + m
+st -n tunes -e ncmpcpp
+## Media keys
+# XF86Audio {Play, Stop, Prev, Next}
+mpc {toggle, stop, prev, next}
 
+## Volume Control
+# XF86Audio { Raise, Lower } Volume
+amixer sset Master {1%+, 1%-}; kill -44 $(pidof dwmblocks)
+## Pulseaudio mixer
+# super + a
+st -n mixer -e pulsemixer
 
 ## Browsers
 # super + w 
 qutebrowser
 # super + shift +w 
 palemoon
+# super + b
+bmks
 
-##Tunes
-# XF86Audio {Play, Stop, Prev, Next}
-mpc {toggle, stop, prev, next}
-
-##Volume
-# XF86Audio { Raise, Lower } Volume
-amixer sset Master {1%+, 1%-}; kill -44 $(pidof dwmblocks)
-
-##Soulseek
-# super + s
+## Soulseek
+# super + shift + s
 soulseekqt
 
-##Terminal with tmux
-# super + shift + return
-st -n SHELL tmux new-session -s GUI
+## Terminal
+# super + return
+st
 
-##Clipmenu
+## Terminal with tmux
+# super + shift + return
+st -n SHELL -e tmux new -As0
+
+## Clipmenu
 # super + c
 clipmenu
 
-##alsamixer
-# super + a
-st alsamixer
-
-##todo
+## todo
 # super + alt + t
 todo
 
-##DPMS settings
+## DPMS settings
 # super + alt + d
 xset -dpms; notify-send "DPMS OFF"
 
-##DPMS settings
+## DPMS settings
 # super + shift + alt + d
 xset +dpms; notify-send "DPMS ON"
 
-##Passmenu bypass clipboard
+## DPMS toggle script
+# super + F6
+dpms-toggle.sh
+
+## Passmenu bypass clipboard
 # super + p
 passmenu --type
 
-##click4ever
-# super + shift + a
-click4ever --delay=20
-# super + @mouse2
-click4ever --delay=5
+## Change windows with rofi
+# super + tab
+rofi -show 
+
+## i3-winmotion [FLAC]
+# super + q
+i3-winmotion
+
+## Dmenu (Rofi) run history
+# super + d
+dmenu_run_history

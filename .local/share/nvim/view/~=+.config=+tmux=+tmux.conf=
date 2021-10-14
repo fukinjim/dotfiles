@@ -13,21 +13,21 @@ silent! normal! zE
 7,13fold
 14,15fold
 16,17fold
-19,41fold
-43,69fold
-71,100fold
-102,111fold
-113,123fold
-125,143fold
-144,152fold
-144,153fold
-155,160fold
+20,42fold
+44,71fold
+73,102fold
+104,114fold
+116,129fold
+131,149fold
+150,158fold
+150,159fold
+161,166fold
 let &fdl = &fdl
-let s:l = 58 - ((44 * winheight(0) + 22) / 44)
+let s:l = 139 - ((36 * winheight(0) + 10) / 20)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 58
+keepjumps 139
 normal! 01|
 let &g:so = s:so_save | let &g:siso = s:siso_save
 set hlsearch

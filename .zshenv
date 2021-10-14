@@ -3,6 +3,7 @@ path=("$HOME/.local/bin" "$HOME/.config/nnn/plugins" "/home/andrew/.config/surfr
 export PATH
 #Clipmenu options
 export CM_SELECTIONS="clipboard"
+export RANDFILE=/home/andrew/.rnd
 
 export EDITOR=/usr/bin/nvim
 export BROWSER=/usr/bin/qutebrowser 

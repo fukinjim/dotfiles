@@ -55,3 +55,8 @@ nnoremap <C-l> <C-W>l
 
 " open new file on gf if file doesn't exist
 nnoremap gf :e <cfile><CR>
+
+" Better tabbing
+vnoremap < <gv
+vnoremap > >gv
+

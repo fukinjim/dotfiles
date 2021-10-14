@@ -54,7 +54,7 @@ font-3 = IPAGothic:fontformat=truetype:pixelsize=11:antialias=false;
 
 modules-left = i3
 modules-center = mpd
-modules-right = pulseaudio wlan battery temperature date updates-pacman-aurhelper powermenu 
+modules-right = pulseaudio wlan battery temperature date updates-pacman-aurhelper 
 
 tray-position = right
 tray-padding = 2
@@ -72,28 +72,30 @@ format = <label-state> <label-mode>
 index-sort = true
 wrapping-scroll = false
 
+ws-icon-0 = "1:Web;Web "
+ws-icon-1 = "2:Shell;Shell "
 label-mode-padding = 2
 label-mode-foreground = #000
 label-mode-background = ${colors.primary}
 
 ; focused = Active workspace on focused monitor
-label-focused = %index%
+label-focused = %index% %icon%
 label-focused-background = #000f0f0f
 label-focused-underline= ${colors.primary}
 label-focused-padding = 2
 
 ; unfocused = Inactive workspace on any monitor
-label-unfocused = %index%
+label-unfocused = %index% %icon%
 label-unfocused-padding = 2
 
 ; visible = Active workspace on unfocused monitor
-label-visible = %index%
+label-visible = %index% %icon%
 label-visible-background = ${self.label-focused-background}
 label-visible-underline = ${self.label-focused-underline}
 label-visible-padding = ${self.label-focused-padding}
 
 ; urgent = Workspace with urgency hint set
-label-urgent = %index%
+label-urgent = %index% %icon%
 label-urgent-background = ${colors.alert}
 label-urgent-padding = 2
 
@@ -145,8 +147,8 @@ ramp-signal-foreground = ${colors.foreground-alt}
 type = internal/date
 interval = 5
 
-date = " %A-%b-%d"
-date-alt = " %Y-%m-%d"
+date = " %A-%b-%d  "
+date-alt = " %Y-%m-%d  "
 
 time = %H:%M
 time-alt = %H:%M:%S
@@ -288,7 +290,7 @@ expand-right = true
 
 format-spacing = 1
 
-label-open = ⏻
+label-open = "⏻ "
 label-open-foreground = ${colors.secondary}
 label-close =  cancel
 label-close-foreground = ${colors.secondary}

@@ -1,6 +1,7 @@
 # Command not found hook for pkgfile
 source /usr/share/doc/find-the-command/ftc.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+bindkey '^ ' autosuggest-accept
 
 # enable vim mode on commmand line
 bindkey -v
