@@ -54,7 +54,7 @@ font-3 = IPAGothic:fontformat=truetype:pixelsize=11:antialias=false;
 
 modules-left = i3
 modules-center = mpd
-modules-right = pulseaudio wlan battery temperature date updates-pacman-aurhelper 
+modules-right = pulseaudio wlan battery temperature dpms date updates-pacman-aurhelper 
 
 tray-position = right
 tray-padding = 2
@@ -311,6 +311,11 @@ menu-2-0 = power off
 menu-2-0-exec =  poweroff
 menu-2-1 = cancel
 menu-2-1-exec = menu-open-0
+
+[module/dpms]
+type = custom/script
+exec = ~/scripts/dpms-status.sh
+interval = 3
 
 [module/updates-pacman-aurhelper]
 type = custom/script
