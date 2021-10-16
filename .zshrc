@@ -42,6 +42,10 @@ bindkey '^?' backward-delete-char  #backspace
 bindkey -M viins '^r' history-incremental-search-backward
 bindkey -M vicmd '^r' history-incremental-search-backward
 
+# FZF keybinding
+source /usr/share/fzf/key-bindings.zsh
+source /usr/share/fzf/completion.zsh
+
 # Lines configured by zsh-newuser-install
 HISTFILE=$HOME/.histfile
 HISTSIZE=100000
@@ -234,6 +238,7 @@ cfg-xresources() { $EDITOR $HOME/.Xresources;}
 cfg-zprofile() { $EDITOR $HOME/.zprofile ;}
 
 # aliases
+alias wget="wget --hsts-file="$XDG_CACHE_HOME/wget-hsts""
 alias ..="cd .."
 alias getpath="find -type f | fzf | sed 's/^..//' | tr -d '\n' | xclip -selection c"
 alias ls="exa --icons -a --group-directories-first"

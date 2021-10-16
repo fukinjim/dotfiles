@@ -23,4 +23,6 @@ Plug 'morhetz/gruvbox'
 Plug 'ervandew/supertab'
 Plug 'vim-airline/vim-airline'
 Plug 'ryanoasis/vim-devicons'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
+Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 call plug#end()

@@ -19,10 +19,18 @@ mpdmenu -T
 mpdmenu -g
 ## Open a floating instance of ncmpcpp
 #super + control + m
-st -n tunes -e ncmpcpp
+st -n tunes -e clerk
 ## Media keys
 # XF86Audio {Play, Stop, Prev, Next}
 mpc {toggle, stop, prev, next}
+
+## Filemanager
+# super + f
+st -n Ranger -e ranger
+
+## auto tile
+# super + shift + a
+autotiling
 
 ## Volume Control
 # XF86Audio { Raise, Lower } Volume
@@ -58,14 +66,6 @@ clipmenu
 ## todo
 # super + alt + t
 todo
-
-## DPMS settings
-# super + alt + d
-xset -dpms; notify-send "DPMS OFF"
-
-## DPMS settings
-# super + shift + alt + d
-xset +dpms; notify-send "DPMS ON"
 
 ## DPMS toggle script
 # super + F6
