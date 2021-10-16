@@ -1,0 +1,1 @@
+Oct 07 22:18:16 host=smtp.gmail.com tls=on auth=on user=fukin.jim@gmail.com from=fukin.jim@gmail.com recipients=fukin.jim@gmail.com mailsize=11169 smtpstatus=250 smtpmsg='250 2.0.0 OK  1633670427 a26sm964466pgm.87 - gsmtp' exitcode=EX_OK

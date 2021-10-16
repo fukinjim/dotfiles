@@ -1,0 +1,5 @@
+pane	0	1	1	:*	1	:/home/andrew	1	nvim	:/usr/bin/nvim /home/andrew/.zshrc
+pane	0	2	0	:-	1	:/home/andrew/.config	1	python	:
+window	0	1	:nvim	1	:*	c540,191x46,0,0,3	:
+window	0	2	:Ranger	0	:-	c53e,191x46,0,0,1	off
+state	0	

@@ -1,0 +1,6 @@
+configuration {
+  kb-row-down: "J";
+  kb-row-up: "K";
+}
+
+@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"
