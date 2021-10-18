@@ -11,40 +11,37 @@ setlocal fen
 silent! normal! zE
 2,6fold
 7,13fold
-14,15fold
 16,17fold
-20,42fold
-44,71fold
-73,102fold
-104,114fold
-116,129fold
-131,149fold
-150,158fold
-150,159fold
-161,166fold
+14,18fold
+19,20fold
+23,45fold
+47,74fold
+76,105fold
+107,117fold
+119,132fold
+134,152fold
+153,161fold
+153,162fold
+163,165fold
+167,169fold
+166,172fold
 let &fdl = &fdl
-14
+2
 normal! zo
-20
+23
 normal! zo
-73
+166
 normal! zo
-116
+167
 normal! zo
-131
-normal! zo
-150
-normal! zo
-150
-normal! zo
-161
-normal! zo
-let s:l = 158 - ((14 * winheight(0) + 10) / 20)
+166
+normal! zc
+let s:l = 35 - ((34 * winheight(0) + 22) / 44)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 158
-normal! 046|
+keepjumps 35
+normal! 0
 let &g:so = s:so_save | let &g:siso = s:siso_save
 set hlsearch
 doautoall SessionLoadPost

@@ -170,7 +170,7 @@ c.downloads.remove_finished = 1000
 # `{line0}`: Same as `{line}`, but starting from index 0. * `{column0}`:
 # Same as `{column}`, but starting from index 0.
 # Type: ShellCommand
-c.editor.command = ['st', 'nvim', '{}']
+c.editor.command = ['st', '-n', 'editor', 'nvim', '{}']
 
 # Handler for selecting file(s) in forms. If `external`, then the
 # commands specified by `fileselect.single_file.command` and
@@ -180,7 +180,7 @@ c.editor.command = ['st', 'nvim', '{}']
 # Valid values:
 #   - default: Use the default file selector.
 #   - external: Use an external command.
-c.fileselect.handler = 'default'
+c.fileselect.handler = 'external'
 
 # Command (and arguments) to use for selecting a single file in forms.
 # The command should write the selected file path to the specified file
@@ -188,7 +188,7 @@ c.fileselect.handler = 'default'
 # the file to be written to. If not contained in any argument, the
 # standard output of the command is read instead.
 # Type: ShellCommand
-c.fileselect.single_file.command = ['st', 'ranger', '--choosefile={}']
+c.fileselect.single_file.command = ['st', '-c', 'float', 'ranger', '--choosefile={}']
 
 # Command (and arguments) to use for selecting multiple files in forms.
 # The command should write the selected file paths to the specified file
@@ -197,7 +197,7 @@ c.fileselect.single_file.command = ['st', 'ranger', '--choosefile={}']
 # contained in any argument, the   standard output of the command is
 # read instead.
 # Type: ShellCommand
-c.fileselect.multiple_files.command = ['st', 'ranger', '--choosefiles={}']
+c.fileselect.multiple_files.command = ['st', '-c', 'float', 'ranger', '--choosefiles={}']
 
 # Command (and arguments) to use for selecting a single folder in forms.
 # The command should write the selected folder path to the specified
@@ -205,7 +205,7 @@ c.fileselect.multiple_files.command = ['st', 'ranger', '--choosefiles={}']
 # Filename of the file to be written to. If not contained in any
 # argument, the   standard output of the command is read instead.
 # Type: ShellCommand
-c.fileselect.folder.command = ['st', 'ranger', '--choosedir={}']
+c.fileselect.folder.command = ['st', '-c', 'float', 'ranger', '--choosedir={}']
 
 # Characters used for hint strings.
 # Type: UniqueCharString
@@ -235,6 +235,11 @@ c.tabs.last_close = 'close'
 # Type: Bool
 c.tabs.tabs_are_windows = False
 
+# Open base URL of the searchengine if a searchengine shortcut is
+# invoked without parameters.
+# Type: Bool
+c.url.open_base_url = False
+
 # Search engines which can be used via the address bar.  Maps a search
 # engine name (such as `DEFAULT`, or `ddg`) to a URL with a `{}`
 # placeholder. The placeholder will be replaced by the search term, use
@@ -254,7 +259,7 @@ c.tabs.tabs_are_windows = False
 # the search engine name to the search term, e.g. `:open google
 # qutebrowser`.
 # Type: Dict
-c.url.searchengines = {'DEFAULT': 'https://duckgo.com/?q={}', 'a': 'https://wiki.archlinux.org/index.php?search={}&title=Special%3ASearch&go=Go', 'am': 'https://www.amazon.ca/s?k={}', 'aur': 'https://aur.archlinux.org/packages/?O=0&K={}', 'b': 'https://bandcamp.com/search?q={}', 'books': 'https://ca1lib.org/s/{}', 'd': 'https://www.discogs.com/search/?q={}&type=all', 'da': 'https://www.discogs.com/search/?q={}&type=artist', 'g': 'https://github.com/search?q={}', 'ranger': 'https://lists.nongnu.org/archive/cgi-bin/namazu.cgi?query={}&submit=Search%21&idxname=ranger-users&max=20&result=normal&sort=score', 't': 'https://funlx.site/search?q={}&_u=jss1i167ok&_t=ni58sk&_rsrc=chrome/newtab', 'w': 'https://wallpapercave.com/search?q={}', 'y': 'https://www.youtube.com/results?search_query={}', 'v': 'https://vimawesome.com/?q={}'}
+c.url.searchengines = {'DEFAULT': 'https://duckgo.com/?q={}', 'c': 'https://vancouver.craigslist.org/d/for-sale/search/sss?query={}&sort=rel', 'a': 'https://wiki.archlinux.org/index.php?search={}&title=Special%3ASearch&go=Go', 'am': 'https://www.amazon.ca/s?k={}', 'aur': 'https://aur.archlinux.org/packages/?O=0&K={}', 'b': 'https://bandcamp.com/search?q={}', 'books': 'https://ca1lib.org/s/{}', 'd': 'https://www.discogs.com/search/?q={}&type=all', 'da': 'https://www.discogs.com/search/?q={}&type=artist', 'g': 'https://github.com/search?q={}', 'ranger': 'https://lists.nongnu.org/archive/cgi-bin/namazu.cgi?query={}&submit=Search%21&idxname=ranger-users&max=20&result=normal&sort=score', 't': 'https://funlx.site/search?q={}&_u=jss1i167ok&_t=ni58sk&_rsrc=chrome/newtab', 'v': 'https://vimawesome.com/?q={}', 'w': 'https://wallpapercave.com/search?q={}', 'y': 'https://www.youtube.com/results?search_query={}'}
 
 # Page(s) to open at the start.
 # Type: List of FuzzyUrl, or FuzzyUrl
@@ -379,8 +384,10 @@ config.bind('<Ctrl+o>', 'set-cmd-text -s :open -p')
 config.bind('<F2>', 'config-write-py --force')
 config.bind('<F3>', 'config-source')
 config.bind('B', 'bookmark-add')
-config.bind('D', 'hint images download')
+config.bind('yi', 'hint images download')
 config.bind('M', 'hint links spawn tsp mpv --ontop --autofit=1000x780 {hint-url}')
-config.bind('Y', 'hint links spawn st -e youtube-dl {hint-url}')
+config.bind('yv', 'hint links spawn st -n download -e youtube-dl {hint-url}')
+config.bind('ys', 'hint links spawn st -n download -e youtube-dl  -o "~/Music/Tunes/0000--New--0000/00--Singles/%(title)s.%(ext)s" -x --audio-format flac --audio-quality 0 {hint-url}')
+# alias yt-song="youtube-dl -x --audio-format flac --audio-quality 0"
 config.unbind('q')
 config.bind('t', 'set-cmd-text -s :open -t')

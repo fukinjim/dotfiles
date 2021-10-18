@@ -4,10 +4,10 @@
 # super + y 
 ytfzf -D
 
-## mpdmenu / mpd
+## Mpdmenu / Mpd
 # super + m
 mpdmenu
-# super + shift +m
+# super + shift + m
 mpdmenu -p
 # super + alt + m
 mpdmenu -a
@@ -19,16 +19,16 @@ mpdmenu -T
 mpdmenu -g
 ## Open a floating instance of ncmpcpp
 #super + control + m
-st -n tunes -e clerk
+st -c float -e clerk
 ## Media keys
 # XF86Audio {Play, Stop, Prev, Next}
 mpc {toggle, stop, prev, next}
 
 ## Filemanager
 # super + f
-st -n Ranger -e ranger
+st -c float -e ranger
 
-## auto tile
+## Autotiling
 # super + shift + a
 autotiling
 
@@ -37,7 +37,7 @@ autotiling
 amixer sset Master {1%+, 1%-}; kill -44 $(pidof dwmblocks)
 ## Pulseaudio mixer
 # super + a
-st -n mixer -e pulsemixer
+st -c float -e pulsemixer
 
 ## Browsers
 # super + w 
@@ -64,8 +64,12 @@ st -n SHELL -e tmux new -As0
 clipmenu
 
 ## todo
-# super + alt + t
+# super + t
 todo
+
+## Configure hotkeys
+# super + alt + h
+st -c float -e nvim ~/.config/dxhd/dxhd.sh && dxhd -r
 
 ## DPMS toggle script
 # super + F6
@@ -86,3 +90,7 @@ i3-winmotion
 ## Dmenu (Rofi) run history
 # super + d
 dmenu_run_history
+## Test
+# super + 0
+st -c float
+

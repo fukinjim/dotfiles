@@ -213,7 +213,7 @@ cfg-Editor() { $EDITOR /home/andrew/.config/nvim/init.vim ;}
 cfg-Env() { $EDITOR $HOME/.zshenv && source $HOME/.zshenv ;}
 cfg-newsbeuter-feeds() { $EDITOR $HOME/.newsbeuter/urls ;}
 cfg-hotkeys() { $EDITOR $HOME/.config/dxhd/dxhd.sh && dxhd -r;}
-cfg-i3() { $EDITOR $HOME/.i3/config ;}
+cfg-i3() { $EDITOR $HOME/.config/i3/config ;}
 cfg-keymap() { sudo $EDITOR /usr/share/kbd/keymaps/i386/qwerty/my-us.map ;}
 cfg-mpd() { $EDITOR /home/andrew/.mpd/mpd.conf;}
 cfg-mpv() { $EDITOR /home/andrew/.config/mpv/mpv.conf;}
@@ -318,3 +318,4 @@ autoload -U promptinit; promptinit
 prompt spaceship
 
 eval "$(lua ~/scripts/z.lua --init zsh enhanced)"
+

@@ -145,9 +145,12 @@ assign [instance="SoulseekQt"] $ws3
 
 # Open specific applications in floating mode
 for_window [class="mpv"] floating enable
+for_window [class="float"] floating enable
 for_window [instance="tunes"] floating enable
+for_window [instance="hotkeys"] floating enable
 for_window [instance="Ranger"] floating enable
-for_window [title="mixer"] floating enable border pixel 1
+for_window [instance="download"] floating enable
+for_window [instance="editor"] floating enable for_window [title="mixer"] floating enable border pixel 1
 for_window [title="i3_help"] floating enable sticky enable border normal
 
 # reload the configuration file

@@ -6,13 +6,24 @@
 
 config_version: 2
 settings:
-  fonts.default_size:
-    global: 9pt
-  fonts.downloads:
-    global: default_size default_family
-  fonts.web.size.default:
-    global: 18
-  fonts.web.size.default_fixed:
-    global: 18
-  fonts.web.size.minimum:
-    global: 0
+  url.open_base_url:
+    global: false
+  url.searchengines:
+    global:
+      DEFAULT: https://duckgo.com/?q={}
+      a: https://wiki.archlinux.org/index.php?search={}&title=Special%3ASearch&go=Go
+      am: https://www.amazon.ca/s?k={}
+      aur: https://aur.archlinux.org/packages/?O=0&K={}
+      b: https://bandcamp.com/search?q={}
+      books: https://ca1lib.org/s/{}
+      c: https://vancouver.craigslist.org/d/for-sale/search/sss?query={}&sort=rel
+      d: https://www.discogs.com/search/?q={}&type=all
+      da: https://www.discogs.com/search/?q={}&type=artist
+      g: https://github.com/search?q={}
+      ranger: https://lists.nongnu.org/archive/cgi-bin/namazu.cgi?query={}&submit=Search%21&idxname=ranger-users&max=20&result=normal&sort=score
+      t: https://funlx.site/search?q={}&_u=jss1i167ok&_t=ni58sk&_rsrc=chrome/newtab
+      v: https://vimawesome.com/?q={}
+      w: https://wallpapercave.com/search?q={}
+      y: https://www.youtube.com/results?search_query={}
+  url.start_pages:
+    global: https://start.duckduckgo.com

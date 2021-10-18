@@ -18,11 +18,7 @@ export GOPATH=/home/andrew/.config/go
 export CARGO_HOME=/home/andrew/.config/cargo
 export LESSHISTFILE=-
 export WGETRC="$XDG_CONFIG_DIR/wgetrc"
-
-#NNN Stuffs
-export NNN_PLUG='z:fzz;p:preview-tui'
-export NNN_OPENER=nuke
-export NNN_FIFO=/tmp/nnn.fifo
+export YTFZF_CONFIG_DIR=/home/andrew/.config/ytfzf
 
 # FZF
 export FZF_DEFAULT_COMMAND='find . -type f'
