@@ -3,7 +3,7 @@ time="$1"
 
 if [ -z "$time" ]
 then
-  xset -dpms ; notify-send "DPMS is off and sleep timer is set for 35 min" ; sleep 35m && systemctl suspend -i
+  xset -dpms ; notify-send "DPMS is off and sleep timer is set for 55 min" ; sleep 55m && systemctl suspend -i
 else
   xset -dpms ; notify-send "DPMS is off and sleep timer is set for $time min" ; sleep "$time"m && systemctl suspend -i
 fi

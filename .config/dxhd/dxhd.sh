@@ -11,9 +11,9 @@ mpdmenu
 mpdmenu -p
 # super + alt + m
 mpdmenu -a
-# super + shift + t
+# super + t
 mpdmenu -t
-# super + control + t
+# super + shift + t
 mpdmenu -T
 # super + g
 mpdmenu -g
@@ -43,7 +43,7 @@ st -c float -e pulsemixer
 # super + w 
 qutebrowser
 # super + shift +w 
-palemoon
+librewolf
 # super + b
 bmks
 
@@ -64,12 +64,16 @@ st -n SHELL -e tmux new -As0
 clipmenu
 
 ## todo
-# super + t
+# super + control + t
 todo
 
 ## Configure hotkeys
 # super + alt + h
 st -c float -e nvim ~/.config/dxhd/dxhd.sh && dxhd -r
+
+## DPMS toggle script
+# super + F8
+bedtime
 
 ## DPMS toggle script
 # super + F6
@@ -90,7 +94,12 @@ i3-winmotion
 ## Dmenu (Rofi) run history
 # super + d
 dmenu_run_history
+
+## i3 exit script
+# super + shift + e
+~/.config/i3/exit_menu.sh
+
 ## Test
-# super + 0
-st -c float
+# # super + 0
+## st -c float
 

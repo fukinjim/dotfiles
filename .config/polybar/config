@@ -74,6 +74,8 @@ wrapping-scroll = false
 
 ws-icon-0 = "1:Web;Web "
 ws-icon-1 = "2:Shell;Shell "
+ws-icon-2 = "3:Soulseek;Soulseek ﱯ"
+ws-icon-3 = "4;Slack 聆"
 label-mode-padding = 2
 label-mode-foreground = #000
 label-mode-background = ${colors.primary}

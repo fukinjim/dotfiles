@@ -139,13 +139,16 @@ bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 
 # Open applications on specific workspaces{{{
 assign [class="qutebrowser"] $ws1
-assign [class="Pale moon"] $ws1
+assign [class="Slack"] $ws4
+assign [class="LibreWolf"] $ws1
 assign [instance="SHELL"] $ws2
 assign [instance="SoulseekQt"] $ws3
 
 # Open specific applications in floating mode
 for_window [class="mpv"] floating enable
 for_window [class="float"] floating enable
+for_window [instance="surf"] floating enable
+for_window [instance="sxiv"] floating enable
 for_window [instance="tunes"] floating enable
 for_window [instance="hotkeys"] floating enable
 for_window [instance="Ranger"] floating enable
@@ -160,7 +163,7 @@ bindsym $mod+Shift+r reload
 bindsym $mod+Shift+q restart
 
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+# bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # Resize window (you can also use the mouse for that)
 bindsym $mod+r mode "resize"

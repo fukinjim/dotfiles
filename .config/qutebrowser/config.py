@@ -16,7 +16,7 @@ config.load_autoconfig(False)
 # Aliases for commands. The keys of the given dictionary are the
 # aliases, while the values are the commands they map to.
 # Type: Dict
-c.aliases = {'w': 'session-save', 'q': 'close', 'qa': 'quit', 'wq': 'quit --save', 'wqa': 'quit --save', 'gt': 'open https://funlx.site/?_rsrc=chrome/newtab&_rsrc=chrome/newtab&g=rnr&g=rch&_t=reohi2&_u=jss1i167ok'}
+c.aliases = {'w': 'session-save', 'q': 'close', 'qa': 'quit', 'wq': 'quit --save', 'wqa': 'quit --save'}
 
 # Which cookies to accept. With QtWebEngine, this setting also controls
 # other features with tracking capabilities similar to those of cookies;
@@ -126,6 +126,12 @@ config.set('content.images', True, 'chrome-devtools://*')
 # Load images automatically in web pages.
 # Type: Bool
 config.set('content.images', True, 'devtools://*')
+
+# Allow JavaScript to read from or write to the clipboard. With
+# QtWebEngine, writing the clipboard as response to a user interaction
+# is always allowed.
+# Type: Bool
+c.content.javascript.can_access_clipboard = True
 
 # Enable JavaScript.
 # Type: Bool
@@ -259,23 +265,11 @@ c.url.open_base_url = False
 # the search engine name to the search term, e.g. `:open google
 # qutebrowser`.
 # Type: Dict
-c.url.searchengines = {'DEFAULT': 'https://duckgo.com/?q={}', 'c': 'https://vancouver.craigslist.org/d/for-sale/search/sss?query={}&sort=rel', 'a': 'https://wiki.archlinux.org/index.php?search={}&title=Special%3ASearch&go=Go', 'am': 'https://www.amazon.ca/s?k={}', 'aur': 'https://aur.archlinux.org/packages/?O=0&K={}', 'b': 'https://bandcamp.com/search?q={}', 'books': 'https://ca1lib.org/s/{}', 'd': 'https://www.discogs.com/search/?q={}&type=all', 'da': 'https://www.discogs.com/search/?q={}&type=artist', 'g': 'https://github.com/search?q={}', 'ranger': 'https://lists.nongnu.org/archive/cgi-bin/namazu.cgi?query={}&submit=Search%21&idxname=ranger-users&max=20&result=normal&sort=score', 't': 'https://funlx.site/search?q={}&_u=jss1i167ok&_t=ni58sk&_rsrc=chrome/newtab', 'v': 'https://vimawesome.com/?q={}', 'w': 'https://wallpapercave.com/search?q={}', 'y': 'https://www.youtube.com/results?search_query={}'}
+c.url.searchengines = {'DEFAULT': 'https://duckgo.com/?q={}', 'i': 'https://duckduckgo.com/?q={}&iax=images&ia=images', 'c': 'https://vancouver.craigslist.org/d/for-sale/search/sss?query={}&sort=rel', 'a': 'https://wiki.archlinux.org/index.php?search={}&title=Special%3ASearch&go=Go', 'am': 'https://www.amazon.ca/s?k={}', 'aur': 'https://aur.archlinux.org/packages/?O=0&K={}', 'b': 'https://bandcamp.com/search?q={}', 'books': 'https://ca1lib.org/s/{}', 'd': 'https://www.discogs.com/search/?q={}&type=all', 'da': 'https://www.discogs.com/search/?q={}&type=artist', 'g': 'https://github.com/search?q={}', 'ranger': 'https://lists.nongnu.org/archive/cgi-bin/namazu.cgi?query={}&submit=Search%21&idxname=ranger-users&max=20&result=normal&sort=score', 't': 'https://funlx.site/search?q={}&_u=jss1i167ok&_t=ni58sk&_rsrc=chrome/newtab', 'v': 'https://vimawesome.com/?q={}', 'w': 'https://wallpapercave.com/search?q={}', 'y': 'https://www.youtube.com/results?search_query={}'}
 
 # Page(s) to open at the start.
 # Type: List of FuzzyUrl, or FuzzyUrl
 c.url.start_pages = 'https://start.duckduckgo.com'
-
-# Value to use for `prefers-color-scheme:` for websites. The "light"
-# value is only available with QtWebEngine 5.15.2+. On older versions,
-# it is the same as "auto". The "auto" value is broken on QtWebEngine
-# 5.15.2 due to a Qt bug. There, it will fall back to "light"
-# unconditionally.
-# Type: String
-# Valid values:
-#   - auto: Use the system-wide color scheme setting.
-#   - light: Force a light theme.
-#   - dark: Force a dark theme.
-c.colors.webpage.preferred_color_scheme = 'dark'
 
 # Render all web contents using a dark theme. Example configurations
 # from Chromium's `chrome://flags`:  - "With simple HSL/CIELAB/RGB-based
@@ -384,10 +378,12 @@ config.bind('<Ctrl+o>', 'set-cmd-text -s :open -p')
 config.bind('<F2>', 'config-write-py --force')
 config.bind('<F3>', 'config-source')
 config.bind('B', 'bookmark-add')
-config.bind('yi', 'hint images download')
 config.bind('M', 'hint links spawn tsp mpv --ontop --autofit=1000x780 {hint-url}')
-config.bind('yv', 'hint links spawn st -n download -e youtube-dl {hint-url}')
-config.bind('ys', 'hint links spawn st -n download -e youtube-dl  -o "~/Music/Tunes/0000--New--0000/00--Singles/%(title)s.%(ext)s" -x --audio-format flac --audio-quality 0 {hint-url}')
-# alias yt-song="youtube-dl -x --audio-format flac --audio-quality 0"
+config.bind('cc', 'config-cycle content.user_stylesheets /home/andrew/.local/share/solarized-everything-css/css/darculized/darculized-all-sites.css /home/andrew/.local/share/solarized-everything-css/css/gruvbox/gruvbox-all-sites.css /home/andrew/.local/share/solarized-everything-css/css/apprentice/apprentice-all-sites.css /home/andrew/.local/share/solarized-everything-css/css/solarized-dark/solarized-dark-all-sites.css ""')
 config.unbind('q')
 config.bind('t', 'set-cmd-text -s :open -t')
+config.bind('ws', 'spawn surf {url}')
+config.bind('yI', 'hint images spawn --userscript rangerfilepicker')
+config.bind('yi', 'hint images download')
+config.bind('ys', 'hint links spawn st -n download -e youtube-dl  -o "~/Music/Tunes/0000--New--0000/00--Singles/%(title)s.%(ext)s" -x --audio-format flac --audio-quality 0 {hint-url}')
+config.bind('yv', 'hint links spawn st -n download -e youtube-dl {hint-url}')

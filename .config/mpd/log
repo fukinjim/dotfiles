@@ -1,0 +1,127 @@
+Oct 20 17:02 : mixer: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 20 17:27 : exception: Failed to open /home/andrew/.config/mpd/playlists: No such file or directory
+Oct 20 17:27 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 20 17:31 : player: played "05--Rock, Indie, Post-whatever, less conventional rock type jams/The Beatles/1969 - Abbey Road [FLAC]/01 - Come Together.flac"
+Oct 20 17:32 : exception: Failed to open /home/andrew/.config/mpd/playlists: No such file or directory
+Oct 20 17:32 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 20 17:32 : exception: Failed to open /home/andrew/.config/mpd/playlists: No such file or directory
+Oct 20 17:34 : player: played "0000--New--0000/2009 - What Is/King Khan & The Shrines -- What Is! - 02 - I Wanna Be A Girl.flac"
+Oct 20 17:38 : player: played "0000--New--0000/The Supreme Genius Of/02 Took My Lady to Dinner.flac"
+Oct 20 17:41 : player: played "0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/The Stooges (1970) Fun House/01 - Down on the Street.flac"
+Oct 20 17:45 : player: played "0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/The Stooges (1970) Fun House/02 - Loose.flac"
+Oct 20 17:49 : player: played "0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/The Stooges (1970) Fun House/03 - T.V. Eye.flac"
+Oct 20 17:49 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 20 17:49 : player: played "0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/various artists - banjer days/01.Various Artists - Rippling Waters - Paul Smith.mp3"
+Oct 20 17:49 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 20 17:53 : player: played "0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/The Stooges (1970) Fun House/04 - Dirt.flac"
+Oct 20 17:53 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 20 17:56 : player: played "05--Rock, Indie, Post-whatever, less conventional rock type jams/Billie Eilish/2019 - When We All Fall Asleep, Where Do We Go [FLAC]/02 - Bad Guy.flac"
+Oct 20 17:56 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 20 17:59 : player: played "05--Rock, Indie, Post-whatever, less conventional rock type jams/Lorde/2013 - Pure Heroine [FLAC]/03 - Royals.flac"
+Oct 20 18:00 : exception: Failed to open /home/andrew/.config/mpd/playlists: No such file or directory
+Oct 20 18:00 : exception: Failed to open /home/andrew/.config/mpd/playlists: No such file or directory
+Oct 20 18:00 : exception: Failed to open /home/andrew/.config/mpd/playlists: No such file or directory
+Oct 20 18:00 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 20 18:00 : exception: Failed to open /home/andrew/.config/mpd/playlists: No such file or directory
+Oct 20 18:04 : player: played "09--Single Tracks, blasphemous non full album heresy for sinners/Benjamin Tod - The Mountain.flac"
+Oct 20 18:04 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 20 18:13 : player: played "05--Rock, Indie, Post-whatever, less conventional rock type jams/Nick Cave And The Bad Seeds/2013 - Push the Sky Away [FLAC]/08 - Higgs Boson Blues.flac"
+Oct 20 18:22 : exception: Failed to open /home/andrew/.config/mpd/playlists: No such file or directory
+Oct 20 18:22 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 20 18:24 : exception: Failed to open ¥Rt]U: No such file or directory
+Oct 20 18:25 : exception: Failed to open ¥Rt]U: No such file or directory
+Oct 20 18:25 : exception: Failed to open ¥Rt]U: No such file or directory
+Oct 20 18:26 : exception: Failed to open ¥Rt]U: No such file or directory
+Oct 20 18:26 : exception: Failed to open ¥Rt]U: No such file or directory
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/01 The Revolution Will Not Be Posted On Ebay.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/02 Killed By School.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/03 WWHD .mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/04 UC-Unhindered Capitalism.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/05 Spring Fever.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/06 Said Said.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/07 Literally Illiterate.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/08 Kill The Message Board.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/09 Bookstore Bore.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/10 Cheetos.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/11 Mentality Fumigated.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/12 Coffee Cures Everything.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/13 Time To Rock.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/14 We Think Metal Music Is Awesome But....mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/15 Pugnatious Bibliorific Erudism.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/16 Drop The Bomb.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/17 Book Attack.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/18 One Day At A Time.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/19 Kill'em With Politics.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/20 Sham(e).mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/21 Old People Are Dumb.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/22 Revenge Of The Nerds.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/23 Nows The Time.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/24 On The Road Of Life....mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/25 Bring It Back....mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/26 Fuck It, I Quit.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/27 Scene Of The Spectacle.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/28 PMA.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/29 Rock Together.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/30 Bookstore Core.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/31 Options.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/32 Xtreme Equals Mainstream.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/33 Shackle Me Not!.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/34 Warcore 1  Politics Of Total War.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/35 Warcore 2  War By Timetable.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/36 Tomorrow.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/37 Simplified But Amplified.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/38 Shit Peddlers Aka Wiltpolitik.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/39 Trust Fund Aka No Bike Messengers In Russia.mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/40 School's Out (Live).mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/41 PMA (Live).mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/42 Literally Illiterate (Live).mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/43 Drop The Bomb (Live).mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/44 Revenge Of The Nerds (Live).mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/45 Options (Live).mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/46 Bookstore Core (Live).mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/47 Killed By School (Live).mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/48 Nows The Time (Live).mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/49 Wwhd  (Live).mp3
+Oct 20 18:34 : update: added 0000--New--0000/(2004) Final Examiner/50 Xtreme Equals Mainstream.mp3
+Oct 20 18:34 : update: added 0000--New--0000/Killed By School/01 The Revolution Will Not Be Posted on Ebay.mp3
+Oct 20 18:34 : update: added 0000--New--0000/Killed By School/02 Killed By School.mp3
+Oct 20 18:34 : update: added 0000--New--0000/Killed By School/03 WWHD_.mp3
+Oct 20 18:34 : update: added 0000--New--0000/Killed By School/04 UC = Unhindered Capitalism.mp3
+Oct 20 18:34 : update: added 0000--New--0000/Killed By School/05 Spring Fever.mp3
+Oct 20 18:34 : update: added 0000--New--0000/Killed By School/06 Said Said.mp3
+Oct 20 18:34 : update: added 0000--New--0000/Killed By School/07 Literally Illiterate.mp3
+Oct 20 18:34 : update: added 0000--New--0000/Killed By School/08 Kill The Message Board.mp3
+Oct 20 18:34 : update: added 0000--New--0000/Killed By School/09 Bookstore Bore.mp3
+Oct 20 18:34 : update: added 0000--New--0000/Killed By School/10 Cheetos.mp3
+Oct 20 18:34 : update: added 0000--New--0000/Killed By School/11 Mentally Fumigated.mp3
+Oct 20 18:34 : update: added 0000--New--0000/Killed By School/12 Coffee Cures Everything.mp3
+Oct 20 18:34 : update: added 0000--New--0000/Revenge... ...Of The Nerds/01 Drop The Bomb.mp3
+Oct 20 18:34 : update: added 0000--New--0000/Revenge... ...Of The Nerds/02 Book Attack.mp3
+Oct 20 18:34 : update: added 0000--New--0000/Revenge... ...Of The Nerds/03 One Day At A Time.mp3
+Oct 20 18:34 : update: added 0000--New--0000/Revenge... ...Of The Nerds/04 Kill 'Em With Politics.mp3
+Oct 20 18:34 : update: added 0000--New--0000/Revenge... ...Of The Nerds/05 Sham(e).mp3
+Oct 20 18:34 : update: added 0000--New--0000/Revenge... ...Of The Nerds/06 Old People Are Dumb.mp3
+Oct 20 18:34 : update: added 0000--New--0000/Revenge... ...Of The Nerds/07 Revenge Of The Nerds.mp3
+Oct 20 18:34 : update: added 0000--New--0000/Neurosis - Souls At Zero 1992/01 - To Crawl Under One's Skin.flac
+Oct 20 18:34 : update: added 0000--New--0000/Neurosis - Souls At Zero 1992/02 - Souls At Zero.flac
+Oct 20 18:34 : update: added 0000--New--0000/Neurosis - Souls At Zero 1992/03 - Zero.flac
+Oct 20 18:34 : update: added 0000--New--0000/Neurosis - Souls At Zero 1992/04 - Flight.flac
+Oct 20 18:34 : update: added 0000--New--0000/Neurosis - Souls At Zero 1992/05 - The Web.flac
+Oct 20 18:34 : update: added 0000--New--0000/Neurosis - Souls At Zero 1992/06 - Sterile Vision.flac
+Oct 20 18:34 : update: added 0000--New--0000/Neurosis - Souls At Zero 1992/07 - A Chronology For Survival.flac
+Oct 20 18:34 : update: added 0000--New--0000/Neurosis - Souls At Zero 1992/08 - Stripped.flac
+Oct 20 18:34 : update: added 0000--New--0000/Neurosis - Souls At Zero 1992/09 - Takeahnase.flac
+Oct 20 18:34 : update: added 0000--New--0000/Neurosis - Souls At Zero 1992/10 - Empty.flac
+Oct 20 18:34 : update: added 0000--New--0000/Neurosis - Souls At Zero 1992/11 - Souls (demo version).flac
+Oct 20 18:34 : update: added 0000--New--0000/Neurosis - Souls At Zero 1992/12 - Zero (demo version).flac
+Oct 20 18:34 : update: added 0000--New--0000/Neurosis - Souls At Zero 1992/13 - Cleanse III (live in London).flac
+Oct 20 18:34 : update: added 0000--New--0000/Shackle Me Not!/01 PMA 2000.mp3
+Oct 20 18:34 : update: added 0000--New--0000/Shackle Me Not!/02 Rock Together.mp3
+Oct 20 18:34 : update: added 0000--New--0000/Shackle Me Not!/03 Bookstore Core.mp3
+Oct 20 18:34 : update: added 0000--New--0000/Shackle Me Not!/04 Options.mp3
+Oct 20 18:34 : update: added 0000--New--0000/Shackle Me Not!/05 Xtreme Equals Mainstream.mp3
+Oct 20 18:34 : update: added 0000--New--0000/Shackle Me Not!/06 Shackle Me Not!.mp3
+Oct 20 18:35 : exception: Failed to open /home/andrew/.config/mpd/playlists: No such file or directory
+Oct 20 18:36 : player: played "0000--New--0000/2001-Relapse Records [US, RR6496-2]/A Sun That Never Sets.flac"
+Oct 20 18:36 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Oct 20 18:38 : player: played "0000--New--0000/Neurosis - Souls At Zero 1992/01 - To Crawl Under One's Skin.flac"

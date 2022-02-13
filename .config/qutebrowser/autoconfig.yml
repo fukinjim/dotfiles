@@ -6,8 +6,6 @@
 
 config_version: 2
 settings:
-  url.open_base_url:
-    global: false
   url.searchengines:
     global:
       DEFAULT: https://duckgo.com/?q={}
@@ -20,10 +18,9 @@ settings:
       d: https://www.discogs.com/search/?q={}&type=all
       da: https://www.discogs.com/search/?q={}&type=artist
       g: https://github.com/search?q={}
+      i: https://duckduckgo.com/?q={}&iax=images&ia=images
       ranger: https://lists.nongnu.org/archive/cgi-bin/namazu.cgi?query={}&submit=Search%21&idxname=ranger-users&max=20&result=normal&sort=score
       t: https://funlx.site/search?q={}&_u=jss1i167ok&_t=ni58sk&_rsrc=chrome/newtab
       v: https://vimawesome.com/?q={}
       w: https://wallpapercave.com/search?q={}
       y: https://www.youtube.com/results?search_query={}
-  url.start_pages:
-    global: https://start.duckduckgo.com

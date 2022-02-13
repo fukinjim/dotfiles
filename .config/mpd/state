@@ -1,10 +1,10 @@
-sw_volume: 0
-audio_device_state:0:My PULSE Device
-audio_device_state:1:My ALSA Device
+sw_volume: 100
+audio_device_state:1:My PULSE Device
+audio_device_state:0:My ALSA Device
 audio_device_state:1:my_fifo
-state: pause
-current: 0
-time: 102.335000
+state: play
+current: 144
+time: 120.058000
 random: 0
 repeat: 0
 single: 0
@@ -13,17 +13,623 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/[1967] Axis： Bold as Love/01 - EXP.flac
-1:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/[1967] Axis： Bold as Love/02 - Up From the Skies.flac
-2:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/[1967] Axis： Bold as Love/03 - Spanish Castle Magic.flac
-3:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/[1967] Axis： Bold as Love/04 - Wait Until Tomorrow.flac
-4:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/[1967] Axis： Bold as Love/05 - Ain’t No Telling.flac
-5:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/[1967] Axis： Bold as Love/06 - Little Wing.flac
-6:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/[1967] Axis： Bold as Love/07 - If 6 Was 9.flac
-7:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/[1967] Axis： Bold as Love/08 - You Got Me Floatin’.flac
-8:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/[1967] Axis： Bold as Love/09 - Castles Made of Sand.flac
-9:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/[1967] Axis： Bold as Love/10 - She’s So Fine.flac
-10:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/[1967] Axis： Bold as Love/11 - One Rainy Wish.flac
-11:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/[1967] Axis： Bold as Love/12 - Little Miss Lover.flac
-12:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/[1967] Axis： Bold as Love/13 - Bold as Love.flac
+0:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 01 - Ballads [flac]/1-01. Dick Justice - Henry Lee.flac
+1:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 01 - Ballads [flac]/1-02. Nelstone's Hawaiians - Fatal Flower Garden.flac
+2:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 01 - Ballads [flac]/1-03. Clarence Ashley - The House Carpenter.flac
+3:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 01 - Ballads [flac]/1-04. Coley Jones - Drunkard's Special.flac
+4:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 01 - Ballads [flac]/1-05. Bill & Belle Reed - Old Lady and the Devil.flac
+5:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 01 - Ballads [flac]/1-06. Buell Kazee - The Butcher's Boy.flac
+6:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 01 - Ballads [flac]/1-07. Buell Kazee - The Wagoner's Lad.flac
+7:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 01 - Ballads [flac]/1-08. Chubby Parker - King Kong Kitchie Kitchie Ki-Me-O.flac
+8:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 01 - Ballads [flac]/1-09. Uncle Eck Dunford - Old Shoes and Leggins.flac
+9:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 01 - Ballads [flac]/1-10. Richard Burnett & Leonard Rutherford - Willie Moore.flac
+10:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 01 - Ballads [flac]/1-11. Buster Carter & Preston Young - A Lazy Farmer Boy.flac
+11:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 01 - Ballads [flac]/1-12. The Carolina Tar Heels - Peg and Awl.flac
+12:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 01 - Ballads [flac]/1-13. G. B. Grayson - Ommie Wise.flac
+13:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 01 - Ballads [flac]/1-14. Kelly Harrell - My Name is John Johanna.flac
+14:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 01 - Ballads [flac]/2-01. Edward L. Crain - Bandit Cole Younger.flac
+15:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 01 - Ballads [flac]/2-02. Kelly Harrel - Charles Giteau.flac
+16:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 01 - Ballads [flac]/2-03. The Carter Family - John Hardy Was a Desperate Little Man.flac
+17:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 01 - Ballads [flac]/2-04. The Williamson Brothers and Curry - Gonna Die with my Hammer in My Hand.flac
+18:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 01 - Ballads [flac]/2-05. Frank Hutchison - Stackalee.flac
+19:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 01 - Ballads [flac]/2-06. Charlie Poole & the North Carolina Ramblers - White House Blues.flac
+20:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 01 - Ballads [flac]/2-07. Mississippi John Hurt - Frankie.flac
+21:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 01 - Ballads [flac]/2-08. William & Versey Smith - When That Great Ship Went Down.flac
+22:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 01 - Ballads [flac]/2-09. The Carter Family - Engine 143.flac
+23:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 01 - Ballads [flac]/2-10. Furry Lewis - Kassie Jones.flac
+24:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 01 - Ballads [flac]/2-11. The Bently Boys - Down on Penny's Farm.flac
+25:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 01 - Ballads [flac]/2-12. The Masked Marvel - Mississippi Boweavil Blues.flac
+26:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 01 - Ballads [flac]/2-13. The Carolina Tar Heels - Got the Farm Land Blues.flac
+27:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 02 - Social Music [flac]/1-01. Uncle Bunt Stephens - Sail Away Lady.flac
+28:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 02 - Social Music [flac]/1-02. Jilson Setters - The Wild Wagoner.flac
+29:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 02 - Social Music [flac]/1-03. Prince Albert Hunt's Texas Ramblers - Wake Up Jacob.flac
+30:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 02 - Social Music [flac]/1-04. Delma Lachney & Blind Uncle Gaspard - La Danseuse.flac
+31:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 02 - Social Music [flac]/1-05. Andrew & Jim Baxter - Georgia Stomp.flac
+32:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 02 - Social Music [flac]/1-06. Eck Robertson - Brilliancy Medley.flac
+33:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 02 - Social Music [flac]/1-07. Hoyt Ming & his Pep-Steppers - Indian War Whoop.flac
+34:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 02 - Social Music [flac]/1-08. Henry Thomas - Old Country Stomp.flac
+35:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 02 - Social Music [flac]/1-09. Jim Jackson - Old Dog Blue.flac
+36:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 02 - Social Music [flac]/1-10. Columbus Fruge - Saut Crapaud.flac
+37:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 02 - Social Music [flac]/1-11. Joseph Falcon - Acadian One-Step.flac
+38:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 02 - Social Music [flac]/1-12. The Breaux Freres - Home Sweet Home.flac
+39:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 02 - Social Music [flac]/1-13. The Cincinnati Jug Band - Newport Blues.flac
+40:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 02 - Social Music [flac]/1-14. Frank Cloutier and the Victoria Cafe Orchestra - Moonshiner's Dance Part One.flac
+41:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 02 - Social Music [flac]/2-01. Rev. J. M. Gates - Must Be Born Again.flac
+42:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 02 - Social Music [flac]/2-02. Rev. J. M. Gates - Oh Death Where Is Thy Sting.flac
+43:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 02 - Social Music [flac]/2-03. Alabama Sacred Harp Singers - Rocky Road.flac
+44:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 02 - Social Music [flac]/2-04. Alabama Sacred Harp Singers - Present Joys.flac
+45:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 02 - Social Music [flac]/2-05. Middle Georgia Singing Convention No. 1 - This Song Of Love.flac
+46:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 02 - Social Music [flac]/2-06. Sister Mary Nelson - Judgement.flac
+47:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 02 - Social Music [flac]/2-07. Memphis Sanctified Singers - He Got Better Things For You.flac
+48:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 02 - Social Music [flac]/2-08. The Elders McIntorsh & Edwards' Sanctified Singers - Since I Laid My Burden Down.flac
+49:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 02 - Social Music [flac]/2-09. Rev. Moses Mason - John The Baptist.flac
+50:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 02 - Social Music [flac]/2-10. Bascom Lamar Lunsford - Dry Bones.flac
+51:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 02 - Social Music [flac]/2-11. Blind Willie Johnson - John The Revelator.flac
+52:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 02 - Social Music [flac]/2-12. The Carter Family - Little Moses.flac
+53:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 02 - Social Music [flac]/2-13. Ernest Phipps & Holiness Singers - Shine On Me.flac
+54:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 02 - Social Music [flac]/2-14. Rev. F. W. McGee - Fifty Miles Of Elbow Room.flac
+55:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 02 - Social Music [flac]/2-15. Rev. D. C. Rice and Congregation - In The Battlefield For My Lord.flac
+56:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 03 - Songs [flac]/2-01. Ramblin' Thomas - Poor Boy Blues.flac
+57:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 03 - Songs [flac]/2-02. Cannon's Jug Stompers - Feather Bed.flac
+58:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 03 - Songs [flac]/2-03. Dock Boggs - Country Blues.flac
+59:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 03 - Songs [flac]/2-04. Julius Daniels - 99 Year Blues.flac
+60:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 03 - Songs [flac]/2-05. Blind Lemon Jefferson - Prison Cell Blues.flac
+61:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 03 - Songs [flac]/2-06. Blind Lemon Jefferson - See That My Grave is Kept Clean.flac
+62:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 03 - Songs [flac]/2-07. Cleoma & Ophy Breaux & Joseph Falcon - C'est Si Triste Sans Lui.flac
+63:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 03 - Songs [flac]/2-08. Uncle Dave Macon - Way Down the Old Plank Road.flac
+64:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 03 - Songs [flac]/2-09. Uncle Dave Macon - Buddy Won't You Roll Down the Line.flac
+65:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 03 - Songs [flac]/2-10. Mississippi John Hurt - Spike Driver Blues.flac
+66:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 03 - Songs [flac]/2-11. Memphis Jug Band - K.C. Moan.flac
+67:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 03 - Songs [flac]/2-12. J.P. Nestor - Train on the Island.flac
+68:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 03 - Songs [flac]/2-13. Ken Maynard - The Lone Star Trail.flac
+69:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1952 - Anthology Of American Folk Music [FLAC]/Disc 03 - Songs [flac]/2-14. Henry Thomas - Fishing Blues.flac
+70:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1972 - The Grand Wazoo/01 - The Grand Wazoo.flac
+71:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1972 - The Grand Wazoo/02 - For Calvin (And His Next Two Hitch-Hikers).flac
+72:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1972 - The Grand Wazoo/03 - Cletus Awreetus-Awrightus.flac
+73:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1972 - The Grand Wazoo/04 - Eat That Question.flac
+74:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/1972 - The Grand Wazoo/05 - Blessed Relief.flac
+75:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/2003 - Everything Goes Numb/01 - Everything Went Numb.flac
+76:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/2003 - Everything Goes Numb/02 - That'll Be The Day.flac
+77:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/2003 - Everything Goes Numb/03 - Point - Counterpoint.flac
+78:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/2003 - Everything Goes Numb/04 - If And When We Rise Again.flac
+79:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/2003 - Everything Goes Numb/05 - A Better Place, A Better Time.flac
+80:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/2003 - Everything Goes Numb/06 - We Are The Few.flac
+81:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/2003 - Everything Goes Numb/07 - Failing, Flailing.flac
+82:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/2003 - Everything Goes Numb/08 - Here's To Life.flac
+83:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/2003 - Everything Goes Numb/09 - A Moment Of Silence.flac
+84:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/2003 - Everything Goes Numb/10 - A Moment Of Violence.flac
+85:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/2003 - Everything Goes Numb/11 - The Saddest Song.flac
+86:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/2003 - Everything Goes Numb/12 - The Big Sleep.flac
+87:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/2006 - Keasbey Nights/01 - Dear Sergio.flac
+88:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/2006 - Keasbey Nights/02 - Sick and Sad.flac
+89:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/2006 - Keasbey Nights/03 - Keasbey Nights.flac
+90:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/2006 - Keasbey Nights/04 - Day in Day Out.flac
+91:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/2006 - Keasbey Nights/05 - Walking Away.flac
+92:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/2006 - Keasbey Nights/06 - Giving up Giving In.flac
+93:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/2006 - Keasbey Nights/07 - On and On and On.flac
+94:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/2006 - Keasbey Nights/08 - Riding the Fourth Wave.flac
+95:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/2006 - Keasbey Nights/09 - This One Goes Out to....flac
+96:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/2006 - Keasbey Nights/10 - Supernothing.flac
+97:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/2006 - Keasbey Nights/11 - 9mm and a Three Piece Suit.flac
+98:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/2006 - Keasbey Nights/12 - Kristina She Don't Know I Exist.flac
+99:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/2006 - Keasbey Nights/13 - As the Footsteps Die Out Forever.flac
+100:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/2006 - Keasbey Nights/14 - 1234 1234.flac
+101:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Aesop Rock/Aesop Rock - The Impossible Kid (2016)/01 - Aesop Rock - Mystery Fish.flac
+102:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Aesop Rock/Aesop Rock - The Impossible Kid (2016)/02 - Aesop Rock - Rings.flac
+103:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Aesop Rock/Aesop Rock - The Impossible Kid (2016)/03 - Aesop Rock - Lotta Years.flac
+104:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Aesop Rock/Aesop Rock - The Impossible Kid (2016)/04 - Aesop Rock - Dorks.flac
+105:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Aesop Rock/Aesop Rock - The Impossible Kid (2016)/05 - Aesop Rock - Rabies.flac
+106:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Aesop Rock/Aesop Rock - The Impossible Kid (2016)/06 - Aesop Rock - Supercell.flac
+107:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Aesop Rock/Aesop Rock - The Impossible Kid (2016)/07 - Aesop Rock - Blood Sandwich.flac
+108:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Aesop Rock/Aesop Rock - The Impossible Kid (2016)/08 - Aesop Rock - Get Out of the Car.flac
+109:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Aesop Rock/Aesop Rock - The Impossible Kid (2016)/09 - Aesop Rock - Shrunk.flac
+110:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Aesop Rock/Aesop Rock - The Impossible Kid (2016)/10 - Aesop Rock - Kirby.flac
+111:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Aesop Rock/Aesop Rock - The Impossible Kid (2016)/11 - Aesop Rock - TUFF.flac
+112:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Aesop Rock/Aesop Rock - The Impossible Kid (2016)/12 - Aesop Rock - Lazy Eye.flac
+113:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Aesop Rock/Aesop Rock - The Impossible Kid (2016)/13 - Aesop Rock - Defender.flac
+114:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Aesop Rock/Aesop Rock - The Impossible Kid (2016)/14 - Aesop Rock - Water Tower.flac
+115:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Aesop Rock/Aesop Rock - The Impossible Kid (2016)/15 - Aesop Rock - Molecules.flac
+116:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/BADBADNOTGODD/BADBADNOTGOOD - 2011 - BBNG [FLAC]/01 - Based Is How You Feel Inside.flac
+117:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/BADBADNOTGODD/BADBADNOTGOOD - 2011 - BBNG [FLAC]/02 - Fall in Love.flac
+118:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/BADBADNOTGODD/BADBADNOTGOOD - 2011 - BBNG [FLAC]/03 - Improvised Jam.flac
+119:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/BADBADNOTGODD/BADBADNOTGOOD - 2011 - BBNG [FLAC]/04 - Mass Appeal _ Transmission.flac
+120:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/BADBADNOTGODD/BADBADNOTGOOD - 2011 - BBNG [FLAC]/05 - I Got a Bad Feeling About This.flac
+121:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/BADBADNOTGODD/BADBADNOTGOOD - 2011 - BBNG [FLAC]/06 - Salmonella.flac
+122:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/BADBADNOTGODD/BADBADNOTGOOD - 2011 - BBNG [FLAC]/07 - Freedom _ Billium Evans (Prod. Seeds of Yaris).flac
+123:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/BADBADNOTGODD/BADBADNOTGOOD - 2011 - BBNG [FLAC]/08 - The World Is Yours _ Brooklyn Zoo.flac
+124:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/BADBADNOTGODD/BADBADNOTGOOD - 2011 - BBNG [FLAC]/09 - Listeriosis.flac
+125:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/BADBADNOTGODD/BADBADNOTGOOD - 2011 - BBNG [FLAC]/10 - Camel.flac
+126:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/BADBADNOTGODD/BADBADNOTGOOD - 2011 - BBNG [FLAC]/11 - Title Theme _ Saria's Song _ Song of Storms.flac
+127:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/BADBADNOTGODD/BADBADNOTGOOD - 2011 - BBNG [FLAC]/12 - Outro _ Glasper.flac
+128:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/BadBadNotGood (2021-10-08) Talk Memory [WEB FLAC 24 96] {XL1176DA}/01 - Signal From the Noise.flac
+129:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/BadBadNotGood (2021-10-08) Talk Memory [WEB FLAC 24 96] {XL1176DA}/02 - Unfolding (Momentum 73).flac
+130:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/BadBadNotGood (2021-10-08) Talk Memory [WEB FLAC 24 96] {XL1176DA}/03 - City of Mirrors.flac
+131:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/BadBadNotGood (2021-10-08) Talk Memory [WEB FLAC 24 96] {XL1176DA}/04 - Beside April.flac
+132:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/BadBadNotGood (2021-10-08) Talk Memory [WEB FLAC 24 96] {XL1176DA}/05 - Love Proceeding.flac
+133:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/BadBadNotGood (2021-10-08) Talk Memory [WEB FLAC 24 96] {XL1176DA}/06 - Timid, Intimidating.flac
+134:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/BadBadNotGood (2021-10-08) Talk Memory [WEB FLAC 24 96] {XL1176DA}/07 - Beside April (reprise).flac
+135:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/BadBadNotGood (2021-10-08) Talk Memory [WEB FLAC 24 96] {XL1176DA}/08 - Talk Meaning.flac
+136:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 1999 - The Music of the Gypsies/01 - Pata Negra - Yo Me Quedo En Sevilla.flac
+137:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 1999 - The Music of the Gypsies/02 - Acquaragia Drom - Ussa Sà.flac
+138:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 1999 - The Music of the Gypsies/03 - Fanfare Ciocărlia - Doina Si Balaseanca.flac
+139:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 1999 - The Music of the Gypsies/04 - Eleni Vitali - To Tragoudi Ton Gifton (The Song of the Gypsies).flac
+140:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 1999 - The Music of the Gypsies/05 - Musafir - Anghuti.flac
+141:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 1999 - The Music of the Gypsies/06 - Gypsy Music Of Constantinople - Rast Tsiftetelli.flac
+142:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 1999 - The Music of the Gypsies/07 - Kurbeti - San Ta Dio Poulia (Love Birds).flac
+143:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 1999 - The Music of the Gypsies/08 - Taraf De Haïdouks - Cand Eram La '48.flac
+144:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 1999 - The Music of the Gypsies/09 - Kostas Pavlidis - Jastar Amenge Dur.flac
+145:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 1999 - The Music of the Gypsies/10 - Tomatito - Mundi.flac
+146:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 1999 - The Music of the Gypsies/11 - El Indio Gitano & Gerardo Nunez - El Sereno De Mi Calle.flac
+147:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 1999 - The Music of the Gypsies/12 - Paivi arling - Olen Lapsi Mina Syksyjen Illan.flac
+148:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 1999 - The Music of the Gypsies/13 - Jasper & Levi Smith - Cock O' The North-Garryowen-Flowers of Edinburgh-Step it Away-The Girl I Left Behind Me-Step it Away.flac
+149:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 1999 - The Music of the Gypsies/14 - Hungarian Gypsy Orchestra of Jozsef Lacatos - Fast Csardas.flac
+150:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 1999 - The Music of the Gypsies/15 - Krusha Madhe - Kalandxoj.flac
+151:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 1999 - The Music of the Gypsies/16 - Kalman Balogh - Cigany Szinek.flac
+152:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 2000 - The Scottish Folk Music/01 - Battlefield Band - Clan Coco; The Road To Benderloch; 15 Stubbies To Warragul.flac
+153:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 2000 - The Scottish Folk Music/02 - Mac-Talla - Griogal Cridhe (Beloved Gregor).flac
+154:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 2000 - The Scottish Folk Music/03 - Karen Matheson - Rithill Aill.flac
+155:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 2000 - The Scottish Folk Music/04 - Wolfstone - Heart And Soul.flac
+156:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 2000 - The Scottish Folk Music/05 - Alison Kinnaird - The Crags Of Ailsa; Staffa's Shore.flac
+157:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 2000 - The Scottish Folk Music/06 - Silly Wizard - The Queen Of Argyll.flac
+158:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 2000 - The Scottish Folk Music/07 - Rory Campbell & Malcomm Stitt - John Griffin's.flac
+159:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 2000 - The Scottish Folk Music/08 - Fiddlers Five - The Centennial Waltz.flac
+160:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 2000 - The Scottish Folk Music/09 - The Tannahill Weavers - Good Drying Set.flac
+161:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 2000 - The Scottish Folk Music/10 - Christine Primrose - Tha M'eudail Is M'Aighear 'S Mo Ghradh (My Treasure, My Delight, My Love).flac
+162:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 2000 - The Scottish Folk Music/11 - Ewan Maccoll - Dirty Old Town.flac
+163:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 2000 - The Scottish Folk Music/12 - Ossian - 'S Gann Gunn Dirich Mi Chaoidh.flac
+164:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 2000 - The Scottish Folk Music/13 - Jonny Hardie & Gavin Marwick - The Quiet Man; The Solstice; The Silver.flac
+165:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 2000 - The Scottish Folk Music/14 - Whirligig - The Harper; Lady Catherine Ogle.flac
+166:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 2000 - The Scottish Folk Music/15 - Ross Kennedy & Archie McAllister - The Gathering Storms; The Lowland Of Scotland; Feaden Glan A'Phiobair.flac
+167:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 2000 - The Scottish Folk Music/16 - Tom Anderson & Aly Bain - Jack Broke Da Prison Door; Donald Blue; Sleep Sound Ida Mornin'; Lasses Trust In Providence; Bonnie Isle O'Whalsay.flac
+168:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 2000 - The Scottish Folk Music/17 - Alasdair Fraser - Wooden Whale; Leaps & Bounds; Skye Barbeque.flac
+169:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 2000 - The Scottish Folk Music/18 - Capercaillie - The Tree.flac
+170:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/The Rough Guide to - 2000 - The Scottish Folk Music/19 - John D Burgess - The Swallow-Tailed Coat; Turf Lodge.flac
+171:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - Rough Guide to a World of Psychedelia (2016) FLAC/01. Ros Seresyothea - Jam 10 Kai Theit (Wait Ten Months More).flac
+172:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - Rough Guide to a World of Psychedelia (2016) FLAC/02. Ananda Shankar - Dancing Drums.flac
+173:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - Rough Guide to a World of Psychedelia (2016) FLAC/03. Laranja Freak - Alergico De Flores.flac
+174:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - Rough Guide to a World of Psychedelia (2016) FLAC/04. Anarkia Tropikal - El Silbido Del Tunche (feat. Los Chapillacs).flac
+175:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - Rough Guide to a World of Psychedelia (2016) FLAC/05. Celestine Ukwu - Obialu Be Onye Abiagbunia Okwukwe.flac
+176:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - Rough Guide to a World of Psychedelia (2016) FLAC/06. Traffic Sound - La Camita.flac
+177:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - Rough Guide to a World of Psychedelia (2016) FLAC/07. Asha Bhosle - Piya Tu Ab To Aaja.flac
+178:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - Rough Guide to a World of Psychedelia (2016) FLAC/08. Yos Olarang - Cyclo.flac
+179:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - Rough Guide to a World of Psychedelia (2016) FLAC/09. Juaneco Y Su Combo - Perdido En El Espacio.flac
+180:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - Rough Guide to a World of Psychedelia (2016) FLAC/10. Milmani Park Orchestra - Taxi Driver.flac
+181:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - Rough Guide to a World of Psychedelia (2016) FLAC/11. Iuri Andrade - Folia No Vento.flac
+182:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - Rough Guide to a World of Psychedelia (2016) FLAC/12. Bacalao Men - Japones.flac
+183:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - Rough Guide to a World of Psychedelia (2016) FLAC/13. Kalyanji Anandji - Cabaret Dance Music (Instrumental).flac
+184:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - Rough Guide to a World of Psychedelia (2016) FLAC/14. Ray Pérez Y Su Orquesta - Recordando Los Soneros.flac
+185:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - Rough Guide to a World of Psychedelia (2016) FLAC/15. Victor Uwaifo - Guitar Boy.flac
+186:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - Rough Guide to a World of Psychedelia (2016) FLAC/16. Wal Sant'ana - Que Vida É Essa.flac
+187:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - Rough Guide to a World of Psychedelia (2016) FLAC/17. M.A.K.U. Soundsystem - Canto Negro.flac
+188:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - The Rough Guide To The Music Of Japan/01 - Michiko Suga - Ushibuka Haiya Bushi.flac
+189:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - The Rough Guide To The Music Of Japan/02 - Chanchiki - Yagaefu.flac
+190:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - The Rough Guide To The Music Of Japan/03 - Nami Makioka - Subayado Bushi.flac
+191:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - The Rough Guide To The Music Of Japan/04 - Takashi Hirayusa - Koza Renka.flac
+192:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - The Rough Guide To The Music Of Japan/05 - Oki Dub Ainu Band - East Of Kunashiri.flac
+193:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - The Rough Guide To The Music Of Japan/06 - Ryukyu Underground - Shinkaichi (Sarus Meditation Dub).flac
+194:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - The Rough Guide To The Music Of Japan/07 - Seijin Noborikawa - Asadoya Yunta.flac
+195:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - The Rough Guide To The Music Of Japan/09 - Hajaime Ikoma - Kawachi No Ryu.flac
+196:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - The Rough Guide To The Music Of Japan/10 - Tadao Sawai - Futatsu No Hensokyoku Sakura Sakura.flac
+197:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - The Rough Guide To The Music Of Japan/11 - Kunaicho Gakubu - Hyojo Netori.flac
+198:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - The Rough Guide To The Music Of Japan/12 - Tendai Shomyo, Tatsuya Koumazaki & Pangea - Gobai.flac
+199:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - The Rough Guide To The Music Of Japan/13 - Kotsuru Tade - Hara No Tatsutokya.flac
+200:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - The Rough Guide To The Music Of Japan/14 - Takeharu Kunimoto & The Last Frontier - Appalchian Shamisen.flac
+201:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - The Rough Guide To The Music Of Japan/15 - Shizuko Kasagi - Tokyo Boogie Woogie.flac
+202:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - The Rough Guide To The Music Of Japan/16 - Harumi Miyako - Yuhizaka.flac
+203:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - The Rough Guide To The Music Of Japan/17 - Morio Agata - Tokyo Bushi.flac
+204:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - The Rough Guide To The Music Of Japan/18 - Shibasashirazu - Akkan.flac
+205:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - The Rough Guide To The Music Of Japan/08 - Soul Flower Moninike Summit - Ah Wakaranai.flac
+206:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - The Rough Guide To West African Music (1995) [EAC-FLAC]/01 - Super Rail Band - Foliba (Mali).flac
+207:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - The Rough Guide To West African Music (1995) [EAC-FLAC]/02 - Toumani Diabate - Djelika (Mali).flac
+208:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - The Rough Guide To West African Music (1995) [EAC-FLAC]/03 - Ali Farka Touré - Roucky (Mali).flac
+209:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - The Rough Guide To West African Music (1995) [EAC-FLAC]/04 - Moussa Poussy - Toro (Niger).flac
+210:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - The Rough Guide To West African Music (1995) [EAC-FLAC]/05 - Sona Diabate - M'Bore (Guinea).flac
+211:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - The Rough Guide To West African Music (1995) [EAC-FLAC]/06 - Oumou Sangare - Djama Kaissoumou (Mali).flac
+212:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - The Rough Guide To West African Music (1995) [EAC-FLAC]/07 - Bajourou - I Ka Di Nye (Mali).flac
+213:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - The Rough Guide To West African Music (1995) [EAC-FLAC]/08 - E.T. Mensah - 205 (Ghana).flac
+214:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - The Rough Guide To West African Music (1995) [EAC-FLAC]/09 - Orchestra Baobab - Utru Horas (Senegal).flac
+215:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - The Rough Guide To West African Music (1995) [EAC-FLAC]/10 - Mansour Seck - Almamy Bocoum (Senegal).flac
+216:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - The Rough Guide To West African Music (1995) [EAC-FLAC]/11 - Khalifa Ould Eide & Dimi Mint Abba - Mauritania My Beloved Country (Mauretanien).flac
+217:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/VA - The Rough Guide To West African Music (1995) [EAC-FLAC]/12 - Kante Manfila - Agne Anko (Guinea).flac
+218:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD1/01 Lata Mangeshkar, Asha Bhosle & Mahendra Kapoor Pyar Zindagi Ha.flac
+219:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD1/02 Kalyanji Anandji Cabaret Dance Music (Instrumental).flac
+220:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD1/03 Asha Bhosle Mera Naam Hai Shabnam.flac
+221:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD1/04 Shiv Hari Moments Of Passion (Instrumental).flac
+222:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD1/05 R.D. Burman Title Music (Instrumental).flac
+223:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD1/06 Asha Bhosle Yeh Mera Dil Yaar Ka Diwana.flac
+224:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD1/07 Usha Iyer & Asha Bhosle Hare Rama Hare Krishna.flac
+225:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD1/08 Laxmikant-Pyarelal Soul Of Bobby (Instrumental).flac
+226:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD1/09 Asha Bhosle Aye Naujawan Sab Kuchh Yahan (Apradh).flac
+227:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD1/10 Mohammed Rafi & Asha Bhosle Main Hoon Pyar Tera.flac
+228:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD1/11 Lata Mangeshkar Apni To Jaise Taise.flac
+229:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD1/12 Kalyanji Anandji Dance Music (Instrumental).flac
+230:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD1/13 R.D. Burman & Asha Bhosle Duniya Mein Logon Ko (Apna Desh).flac
+231:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD1/14 R.D. Burman Freak Out Music (Instrumental).flac
+232:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD1/15 Mohammed Rafi Jaan Pehechaan Ho.flac
+song_begin: 0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD1/Rough Guide to Psychedelic Bollywood.cue/track0001
+Range: 0-447960
+Time: 449.773000
+Genre: Ethnic
+Date: 2013
+AlbumArtist: Various Artists
+Album: Rough Guide to Psychedelic Bollywood
+Track: 01
+Title: Lata Mangeshkar, Asha Bhosle & Mahendra Kapoor Pyar Zindagi Ha
+Artist: Various Artists
+Performer: Various Artists
+Disc: 1
+mtime: 1631396730
+song_end
+song_begin: 0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD1/Rough Guide to Psychedelic Bollywood.cue/track0002
+Range: 447960-
+Time: 449.773000
+Genre: Ethnic
+Date: 2013
+AlbumArtist: Various Artists
+Album: Rough Guide to Psychedelic Bollywood
+Track: 02
+Title: Kalyanji Anandji Cabaret Dance Music (Instrumental)
+Artist: Various Artists
+Performer: Various Artists
+Disc: 1
+mtime: 1631396730
+song_end
+song_begin: 0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD1/Rough Guide to Psychedelic Bollywood.cue/track0003
+Range: 156493-196106
+Time: 158.613000
+Genre: Ethnic
+Date: 2013
+AlbumArtist: Various Artists
+Album: Rough Guide to Psychedelic Bollywood
+Track: 03
+Title: Asha Bhosle Mera Naam Hai Shabnam
+Artist: Various Artists
+Performer: Various Artists
+Disc: 1
+mtime: 1631396744
+song_end
+song_begin: 0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD1/Rough Guide to Psychedelic Bollywood.cue/track0004
+Range: 196106-
+Time: 197.866000
+Genre: Ethnic
+Date: 2013
+AlbumArtist: Various Artists
+Album: Rough Guide to Psychedelic Bollywood
+Track: 04
+Title: Shiv Hari Moments Of Passion (Instrumental)
+Artist: Various Artists
+Performer: Various Artists
+Disc: 1
+mtime: 1631396760
+song_end
+song_begin: 0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD1/Rough Guide to Psychedelic Bollywood.cue/track0005
+Range: 133253-168880
+Time: 135.253000
+Genre: Ethnic
+Date: 2013
+AlbumArtist: Various Artists
+Album: Rough Guide to Psychedelic Bollywood
+Track: 05
+Title: R.D. Burman Title Music (Instrumental)
+Artist: Various Artists
+Performer: Various Artists
+Disc: 1
+mtime: 1631396796
+song_end
+song_begin: 0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD1/Rough Guide to Psychedelic Bollywood.cue/track0006
+Range: 168880-255786
+Time: 170.760000
+Genre: Ethnic
+Date: 2013
+AlbumArtist: Various Artists
+Album: Rough Guide to Psychedelic Bollywood
+Track: 06
+Title: Asha Bhosle Yeh Mera Dil Yaar Ka Diwana
+Artist: Various Artists
+Performer: Various Artists
+Disc: 1
+mtime: 1631396814
+song_end
+song_begin: 0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD1/Rough Guide to Psychedelic Bollywood.cue/track0007
+Range: 255786-
+Time: 257.786000
+Genre: Ethnic
+Date: 2013
+AlbumArtist: Various Artists
+Album: Rough Guide to Psychedelic Bollywood
+Track: 07
+Title: Usha Iyer & Asha Bhosle Hare Rama Hare Krishna
+Artist: Various Artists
+Performer: Various Artists
+Disc: 1
+mtime: 1631396854
+song_end
+song_begin: 0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD1/Rough Guide to Psychedelic Bollywood.cue/track0008
+Range: 241186-
+Time: 243.066000
+Genre: Ethnic
+Date: 2013
+AlbumArtist: Various Artists
+Album: Rough Guide to Psychedelic Bollywood
+Track: 08
+Title: Laxmikant-Pyarelal Soul Of Bobby (Instrumental)
+Artist: Various Artists
+Performer: Various Artists
+Disc: 1
+mtime: 1631396892
+song_end
+song_begin: 0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD1/Rough Guide to Psychedelic Bollywood.cue/track0009
+Range: 131546-188853
+Time: 133.426000
+Genre: Ethnic
+Date: 2013
+AlbumArtist: Various Artists
+Album: Rough Guide to Psychedelic Bollywood
+Track: 09
+Title: Asha Bhosle Aye Naujawan Sab Kuchh Yahan (Apradh)
+Artist: Various Artists
+Performer: Various Artists
+Disc: 1
+mtime: 1631396920
+song_end
+song_begin: 0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD1/Rough Guide to Psychedelic Bollywood.cue/track0010
+Range: 188853-323720
+Time: 190.853000
+Genre: Ethnic
+Date: 2013
+AlbumArtist: Various Artists
+Album: Rough Guide to Psychedelic Bollywood
+Track: 10
+Title: Mohammed Rafi & Asha Bhosle Main Hoon Pyar Tera
+Artist: Various Artists
+Performer: Various Artists
+Disc: 1
+mtime: 1631398054
+song_end
+song_begin: 0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD1/Rough Guide to Psychedelic Bollywood.cue/track0011
+Range: 323720-482600
+Time: 325.973000
+Genre: Ethnic
+Date: 2013
+AlbumArtist: Various Artists
+Album: Rough Guide to Psychedelic Bollywood
+Track: 11
+Title: Lata Mangeshkar Apni To Jaise Taise
+Artist: Various Artists
+Performer: Various Artists
+Disc: 1
+mtime: 1631397006
+song_end
+song_begin: 0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD1/Rough Guide to Psychedelic Bollywood.cue/track0012
+Range: 482600-
+Time: 484.906000
+Genre: Ethnic
+Date: 2013
+AlbumArtist: Various Artists
+Album: Rough Guide to Psychedelic Bollywood
+Track: 12
+Title: Kalyanji Anandji Dance Music (Instrumental)
+Artist: Various Artists
+Performer: Various Artists
+Disc: 1
+mtime: 1631397078
+song_end
+song_begin: 0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD1/Rough Guide to Psychedelic Bollywood.cue/track0013
+Range: 130213-349493
+Time: 132.053000
+Genre: Ethnic
+Date: 2013
+AlbumArtist: Various Artists
+Album: Rough Guide to Psychedelic Bollywood
+Track: 13
+Title: R.D. Burman & Asha Bhosle Duniya Mein Logon Ko (Apna Desh)
+Artist: Various Artists
+Performer: Various Artists
+Disc: 1
+mtime: 1631397100
+song_end
+song_begin: 0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD1/Rough Guide to Psychedelic Bollywood.cue/track0014
+Range: 349493-
+Time: 351.493000
+Genre: Ethnic
+Date: 2013
+AlbumArtist: Various Artists
+Album: Rough Guide to Psychedelic Bollywood
+Track: 14
+Title: R.D. Burman Freak Out Music (Instrumental)
+Artist: Various Artists
+Performer: Various Artists
+Disc: 1
+mtime: 1631397144
+song_end
+song_begin: 0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD1/Rough Guide to Psychedelic Bollywood.cue/track0015
+Range: 199746-
+Time: 201.586000
+Genre: Ethnic
+Date: 2013
+AlbumArtist: Various Artists
+Album: Rough Guide to Psychedelic Bollywood
+Track: 15
+Title: Mohammed Rafi Jaan Pehechaan Ho
+Artist: Various Artists
+Performer: Various Artists
+Disc: 1
+mtime: 1631397172
+song_end
+248:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD2/01 A Bhosle & R.D. Burman Piya Tu Ab To Aaja.flac
+249:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD2/02 K Sanu Ek Ladki Ko Dekha.flac
+250:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD2/03 M Dey & Chorus Aao Twist Karein.flac
+251:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD2/04 M Rafi Chand Mera Dil.flac
+252:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD2/05 K Sanu Kuch Na Kaho.flac
+253:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD2/06 A Bhosle & M Rafi Chura Liya Hai Tumme.flac
+254:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD2/07 V Mishra, G Bapat G G KAur Lakdi Ki Kathi.flac
+255:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD2/08 S.D. Burman Safal Hogi Teri Aradhana.flac
+256:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD2/09 M Rafi Sar Jo Tera Chakraye.flac
+257:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD2/10 A Bhosle And M Rafi Yah Ladka Hai Allah.flac
+258:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD2/11 K Kumar Yeh Shaam Mastani.flac
+259:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Rough Guides/Various Artists - Rough Guide to Psychedelic Bollywood/CD2/12 A BhosleDum Maro Du.flac
+260:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Run the Jewels/RTJ4/Run the Jewels_RTJ4_1-01_Yankee and the Brave (EP.4).flac
+261:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Run the Jewels/RTJ4/Run the Jewels_RTJ4_1-02_Ooh LA LA.flac
+262:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Run the Jewels/RTJ4/Run the Jewels_RTJ4_1-03_Out of Sight.flac
+263:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Run the Jewels/RTJ4/Run the Jewels_RTJ4_1-04_Holy Calamafuck.flac
+264:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Run the Jewels/RTJ4/Run the Jewels_RTJ4_1-05_Goonies vs. E.T.flac
+265:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Run the Jewels/RTJ4/Run the Jewels_RTJ4_1-06_Walking in the Snow.flac
+266:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Run the Jewels/RTJ4/Run the Jewels_RTJ4_1-07_Ju$t.flac
+267:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Run the Jewels/RTJ4/Run the Jewels_RTJ4_1-08_Never Look Back.flac
+268:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Run the Jewels/RTJ4/Run the Jewels_RTJ4_1-09_The Ground Below.flac
+269:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Run the Jewels/RTJ4/Run the Jewels_RTJ4_1-10_Pulling the Pin.flac
+270:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Run the Jewels/RTJ4/Run the Jewels_RTJ4_1-11_A Few Words for the Firing Squad (Radiation).flac
+271:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Run the Jewels/Run the Jewels 3/Run the Jewels_Run the Jewels 3_1-01_Down.flac
+272:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Run the Jewels/Run the Jewels 3/Run the Jewels_Run the Jewels 3_1-02_Talk to Me.flac
+273:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Run the Jewels/Run the Jewels 3/Run the Jewels_Run the Jewels 3_1-03_Legend Has It.flac
+274:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Run the Jewels/Run the Jewels 3/Run the Jewels_Run the Jewels 3_1-04_Call Ticketron.flac
+275:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Run the Jewels/Run the Jewels 3/Run the Jewels_Run the Jewels 3_1-05_Hey Kids.flac
+276:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Run the Jewels/Run the Jewels 3/Run the Jewels_Run the Jewels 3_1-06_Stay Gold.flac
+277:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Run the Jewels/Run the Jewels 3/Run the Jewels_Run the Jewels 3_1-07_Don’t Get Captured.flac
+278:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Run the Jewels/Run the Jewels 3/Run the Jewels_Run the Jewels 3_1-08_Thieves! (Screamed the Ghost).flac
+279:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Run the Jewels/Run the Jewels 3/Run the Jewels_Run the Jewels 3_1-09_2100.flac
+280:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Run the Jewels/Run the Jewels 3/Run the Jewels_Run the Jewels 3_1-10_Panther Like a Panther (Miracle mix).flac
+281:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Run the Jewels/Run the Jewels 3/Run the Jewels_Run the Jewels 3_1-11_Everybody Stay Calm.flac
+282:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Run the Jewels/Run the Jewels 3/Run the Jewels_Run the Jewels 3_1-12_Oh Mama.flac
+283:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Run the Jewels/Run the Jewels 3/Run the Jewels_Run the Jewels 3_1-13_Thursday in the Danger Room.flac
+284:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Run the Jewels/Run the Jewels 3/Run the Jewels_Run the Jewels 3_1-14_A Report to the Shareholders + Kill Your Masters.flac
+285:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Southern Banjo Sounds/01 - Soon in the Morning Babe.mp3
+286:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Southern Banjo Sounds/02 - Josh Thomas's Roustabout.mp3
+287:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Southern Banjo Sounds/03 - Jim Crack Corn.mp3
+288:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Southern Banjo Sounds/04 - Darling Cora.mp3
+289:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Southern Banjo Sounds/05 - Devil's Dream.mp3
+290:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Southern Banjo Sounds/06 - Little Birdie.mp3
+291:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Southern Banjo Sounds/07 - Around the World.mp3
+292:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Southern Banjo Sounds/08 - Whoopin' Up Cattle.mp3
+293:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Southern Banjo Sounds/09 - Flop Eared Mule.mp3
+294:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Southern Banjo Sounds/10 - Lost Gander.mp3
+295:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Southern Banjo Sounds/11 - The Sailor and the Soldier.mp3
+296:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Southern Banjo Sounds/12 - American Spanish Fandango.mp3
+297:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Southern Banjo Sounds/13 - Got No Silver Nor Gold Blues.mp3
+298:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Southern Banjo Sounds/14 - We're Up Against It Now.mp3
+299:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Southern Banjo Sounds/15 - That's What the Old Bachelor's Made Out Of.mp3
+300:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Southern Banjo Sounds/16 - The Last of Callahan.mp3
+301:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Southern Banjo Sounds/17 - Lady Gay.mp3
+302:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Southern Banjo Sounds/18 - Down South Blues.mp3
+303:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Southern Banjo Sounds/19 - Last Night When My Willie Come Home.mp3
+304:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Southern Banjo Sounds/20 - Wabash Blues.mp3
+305:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Southern Banjo Sounds/21 - Bright Sunny South.mp3
+306:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Southern Banjo Sounds/22 - Roll on John.mp3
+307:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Southern Banjo Sounds/23 - Needlecase.mp3
+308:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Southern Banjo Sounds/24 - Come My Little Pink.mp3
+309:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Southern Banjo Sounds/25 - Battle in the Horseshoe.mp3
+310:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Southern Banjo Sounds/26 - I'm Head Over Heels in Love.mp3
+311:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Sun Ra - Strange Strings - 1967/01 World's Approaching.flac
+312:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Sun Ra - Strange Strings - 1967/02 Thunder of the Gods.flac
+313:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Sun Ra - Strange Strings - 1967/03 Cosmos Miraculous.flac
+314:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Sun Ra - Strange Strings - 1967/04 Moonshots Across the Sky.flac
+315:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Sun Ra - Strange Strings - 1967/05 Strange Strings.flac
+316:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Sun Ra - Strange Strings - 1967/06 Strange Strange.flac
+317:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Sun Ra - The Magic City (1965)[flac]/01 - The Magic City.flac
+318:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Sun Ra - The Magic City (1965)[flac]/02 - The Shadow World.flac
+319:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Sun Ra - The Magic City (1965)[flac]/03 - Abstract Eye.flac
+320:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Sun Ra - The Magic City (1965)[flac]/04 - Abstract 'I'.flac
+321:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/The Sidewinder/01 - The Sidewinder.flac
+322:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/The Sidewinder/02 - Totem Pole.flac
+323:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/The Sidewinder/03 - Gary's Notebook.flac
+324:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/The Sidewinder/04 - Boy, What A Night.flac
+325:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/The Sidewinder/05 - Hocus-Pocus.flac
+326:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Tom Waits/(2009) Tom Waits - Glitter and Doom Live/Disc 1/01. Tom Waits - Lucinda - Ain't Goin' Down (Birmingham).flac
+327:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Tom Waits/(2009) Tom Waits - Glitter and Doom Live/Disc 1/02. Tom Waits - Singapore (Edinburgh).flac
+328:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Tom Waits/(2009) Tom Waits - Glitter and Doom Live/Disc 1/03. Tom Waits - Get Behind the Mule (Tulsa).flac
+329:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Tom Waits/(2009) Tom Waits - Glitter and Doom Live/Disc 1/04. Tom Waits - Fannin Street (Knoxville).flac
+330:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Tom Waits/(2009) Tom Waits - Glitter and Doom Live/Disc 1/05. Tom Waits - Dirt in the Ground (Milan).flac
+331:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Tom Waits/(2009) Tom Waits - Glitter and Doom Live/Disc 1/06. Tom Waits - Such a Scream (Milan).flac
+332:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Tom Waits/(2009) Tom Waits - Glitter and Doom Live/Disc 1/07. Tom Waits - Live Circus (Jacksonville).flac
+333:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Tom Waits/(2009) Tom Waits - Glitter and Doom Live/Disc 1/08. Tom Waits - Goin' Out West (Tulsa).flac
+334:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Tom Waits/(2009) Tom Waits - Glitter and Doom Live/Disc 1/09. Tom Waits - Falling Down (Paris).flac
+335:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Tom Waits/(2009) Tom Waits - Glitter and Doom Live/Disc 1/10. Tom Waits - The Part You Throw Away (Edinburgh).flac
+336:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Tom Waits/(2009) Tom Waits - Glitter and Doom Live/Disc 1/11. Tom Waits - Trampled Rose (Dublin).flac
+337:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Tom Waits/(2009) Tom Waits - Glitter and Doom Live/Disc 1/12. Tom Waits - Metropolitan Glide (Knoxville).flac
+338:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Tom Waits/(2009) Tom Waits - Glitter and Doom Live/Disc 1/13. Tom Waits - I'll Shoot the Moon (Paris).flac
+339:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Tom Waits/(2009) Tom Waits - Glitter and Doom Live/Disc 1/14. Tom Waits - Green Grass (Edinburgh).flac
+340:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Tom Waits/(2009) Tom Waits - Glitter and Doom Live/Disc 1/15. Tom Waits - Make It Rain (Atlanta).flac
+341:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Tom Waits/(2009) Tom Waits - Glitter and Doom Live/Disc 1/16. Tom Waits - Story (Columbus).flac
+342:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Tom Waits/(2009) Tom Waits - Glitter and Doom Live/Disc 1/17. Tom Waits - Lucky Day (Atlanta).flac
+343:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Tom Waits/(2009) Tom Waits - Glitter and Doom Live/Disc 2/Tom Waits - Glitter and Doom Live [2 Tom Tales].flac
+344:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD1/01 - Sally Ann.mp3
+345:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD1/02 - Pretty Polly.mp3
+346:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD1/03 - Darlin' Nellie Gray.mp3
+347:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD1/04 - Long Lonesome Road.mp3
+348:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD1/05 - Nancy Blevins.mp3
+349:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD1/06 - Billy Wilson.mp3
+350:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD1/07 - Cumberland Gap.mp3
+351:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD1/08 - Hop Light Ladies.mp3
+352:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD1/09 - Sandy River Bells.mp3
+353:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD1/10 - Richmond.mp3
+354:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD1/11 - Soldier's Joy.mp3
+355:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD1/12 - Sandy River.mp3
+356:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD1/13 - Country Blues.mp3
+357:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD1/14 - Rabbit Song.mp3
+358:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD1/15 - Whistle Blow (Version 1).mp3
+359:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD1/16 - Whistle Blow (Version 2).mp3
+360:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD1/17 - Cumberland Gap (Version 1).mp3
+361:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD1/18 - Cumberland Gap (Version 2).mp3
+362:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD1/19 - Liza Jane.mp3
+363:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD1/20 - Sugar Hill.mp3
+364:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD1/21 - Liza Jane.mp3
+365:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD1/22 - Preacher and the Bear.mp3
+366:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD1/23 - Old Jawbone.mp3
+367:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD1/24 - Jesus Gonna Make up My Dyin' Bed.mp3
+368:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD1/25 - Georgia Buck.mp3
+369:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD1/26 - Cripple Creek.mp3
+370:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD2/01 - Wild Bill Jones.mp3
+371:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD2/02 - Story of Morgan's March.mp3
+372:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD2/03 - Morgan's March.mp3
+373:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD2/04 - Big Stone Gap.mp3
+374:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD2/05 - John Henry.mp3
+375:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD2/06 - Cold Icy Mountain.mp3
+376:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD2/07 - The Cuckoo.mp3
+377:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD2/08 - Morphine.mp3
+378:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD2/09 - German War.mp3
+379:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD2/10 - Lost Hornpipe.mp3
+380:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD2/11 - Fair and Tender Ladies.mp3
+381:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD2/12 - Whitesburg.mp3
+382:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD2/13 - Going Across the Sea.mp3
+383:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD2/14 - Going Across the Sea.mp3
+384:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD2/15 - Old Rattler.mp3
+385:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD2/16 - Bully of the Town.mp3
+386:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/VA - Just Around the Bend_ Survival and Revival in Southern Banjo Sounds - Mike Seeger's Last Documentary_2019_F [320]/CD2/17 - Cotton-Eyed Joe.mp3
+387:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/various artists - banjer days/01.Various Artists - Rippling Waters - Paul Smith.mp3
+388:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/various artists - banjer days/02.Various Artists - Johnny, Don't Get Drunk - Paul Smith.mp3
+389:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/various artists - banjer days/03.Various Artists - Hand Me Down My Old Suitcase - George Gibson.mp3
+390:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/various artists - banjer days/04.Various Artists - Moonshiner - George Gibson.mp3
+391:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/various artists - banjer days/05.Various Artists - Pass Around the Bottle - George Gibson.mp3
+392:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/various artists - banjer days/06.Various Artists - Florida Blues - Debbie Grim.mp3
+393:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/various artists - banjer days/07.Various Artists - Cuckoo - Debbie Grim.mp3
+394:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/various artists - banjer days/08.Various Artists - Dixie Darling - Debbie Grim.mp3
+395:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/various artists - banjer days/09.Various Artists - I Need the Prayers of Those I Love - Will Keys.mp3
+396:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/various artists - banjer days/10.Various Artists - Waiting for the Robert E. Lee - Will Keys.mp3
+397:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/various artists - banjer days/11.Various Artists - Dead March - Will Keys.mp3
+398:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/various artists - banjer days/12.Various Artists - Shady Grove - Lee Sexton.mp3
+399:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/various artists - banjer days/13.Various Artists - Stay Out of Town - Odus Maggard.mp3
+400:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/various artists - banjer days/14.Various Artists - I've Been Here A Long, Long Time - Odus Maggard.mp3
+401:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/various artists - banjer days/15.Various Artists - Rolling in My Sweet Baby's Arms - Fred O'Quinn.mp3
+402:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/various artists - banjer days/16.Various Artists - Walking in the Parlor - Fred O'Quinn.mp3
+403:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/various artists - banjer days/17.Various Artists - Rye Whiskey - Lee Sexton.mp3
+404:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/various artists - banjer days/18.Various Artists - Little Stream of Whiskey - Hobart Crabtree.mp3
+405:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/various artists - banjer days/19.Various Artists - Old Joe Clark - Hobart Crabtree.mp3
+406:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/various artists - banjer days/20.Various Artists - Sourwood Mountain - George Gibson.mp3
+407:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/various artists - banjer days/21.Various Artists - Bonnie Blue Eyes - George Gibson.mp3
+408:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/various artists - banjer days/22.Various Artists - Bonnie Prince Charlie - Debbie Grim.mp3
+409:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/various artists - banjer days/23.Various Artists - Snake Chapman's Tune - Will Keys.mp3
+410:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/various artists - banjer days/24.Various Artists - Rock Andy - Paul Smith.mp3
+411:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/various artists - banjer days/25.Various Artists - I'll Go Home to My Honey - Paul Smith.mp3
+412:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Violent Femmes/01 Blister in the Sun.flac
+413:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Violent Femmes/02 Kiss Off.flac
+414:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Violent Femmes/03 Please Do Not Go.flac
+415:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Violent Femmes/04 Add It Up.flac
+416:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Violent Femmes/05 Confessions.flac
+417:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Violent Femmes/06 Prove My Love.flac
+418:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Violent Femmes/07 Promise.flac
+419:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Violent Femmes/08 To the Kill.flac
+420:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Violent Femmes/09 Gone Daddy Gone.flac
+421:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Violent Femmes/10 Good Feeling.flac
+422:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Violent Femmes/11 Ugly (1983 Rough Trade UK single).flac
+423:0000--LISTEN TO THESE HERE JAMS AND THEN DECIDE IF YOU LIKE EM--0000/Violent Femmes/12 Gimme the Car (1983 Rough Trade UK single).flac
 playlist_end

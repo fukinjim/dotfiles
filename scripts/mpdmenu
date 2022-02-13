@@ -81,6 +81,7 @@ case "$mode" in
 
     titleadd)
         title=$(d_title)
+        [[ $title ]] || exit 1
 
         mpc find title "$title" | sort | mpc add
 
@@ -88,6 +89,7 @@ case "$mode" in
 
     title)
         title=$(d_title)
+        [[ $title ]] || exit 1
 
         mpc clear
         mpc find title "$title" | sort | mpc add
