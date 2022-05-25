@@ -54,8 +54,9 @@ font-3 = IPAGothic:fontformat=truetype:pixelsize=11:antialias=false;
 
 modules-left = i3
 modules-center = mpd
-modules-right = pulseaudio wlan battery temperature dpms date updates-pacman-aurhelper 
+; modules-right = pulseaudio wlan battery temperature dpms date updates-pacman-aurhelper 
 
+modules-right = pulseaudio wlan battery dpms date updates-pacman-aurhelper 
 tray-position = right
 tray-padding = 2
 
@@ -132,7 +133,7 @@ type = internal/network
 interface = wlan0
 interval = 3.0
 
-format-connected = <ramp-signal> <label-connected>
+format-connected = <ramp-signal> 
 label-connected = %essid%
 
 format-disconnected = No Interwebs

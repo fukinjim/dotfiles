@@ -38,6 +38,9 @@ amixer sset Master {1%+, 1%-}; kill -44 $(pidof dwmblocks)
 ## Pulseaudio mixer
 # super + a
 st -c float -e pulsemixer
+## Switch audio output
+# super + F12
+audioswitch.sh
 
 ## Browsers
 # super + w 
@@ -98,6 +101,10 @@ dmenu_run_history
 ## i3 exit script
 # super + shift + e
 ~/.config/i3/exit_menu.sh
+
+## ip address
+# super + i
+notify-send "$(hostname -i)"
 
 ## Test
 # # super + 0
