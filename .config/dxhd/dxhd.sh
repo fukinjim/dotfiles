@@ -37,7 +37,7 @@ autotiling
 amixer sset Master {1%+, 1%-}; kill -44 $(pidof dwmblocks)
 ## Pulseaudio mixer
 # super + a
-st -c float -e pulsemixer
+st -c float -e pulsemixer --color 1
 ## Switch audio output
 # super + F12
 audioswitch.sh
@@ -45,6 +45,8 @@ audioswitch.sh
 ## Browsers
 # super + w 
 qutebrowser
+# super + alt +w 
+google-chrome-stable
 # super + shift +w 
 librewolf
 # super + b
@@ -98,6 +100,10 @@ i3-winmotion
 # super + d
 dmenu_run_history
 
+## i3 exit
+# super + alt + e
+~/scripts/i3-restore/i3-save && i3-msg exit
+
 ## i3 exit script
 # super + shift + e
 ~/.config/i3/exit_menu.sh
@@ -109,4 +115,8 @@ notify-send "$(hostname -i)"
 ## Test
 # # super + 0
 ## st -c float
+
+## Update keyboard after pluggin in
+# super + shift + i
+setxkbmap -option caps:escape && xmodmap ~/.Xmodmap
 

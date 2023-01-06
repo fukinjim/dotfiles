@@ -8,12 +8,12 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 492 - ((21 * winheight(0) + 22) / 44)
+let s:l = 37 - ((23 * winheight(0) + 22) / 44)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 492
-normal! 020|
+keepjumps 37
+normal! 022|
 let &g:so = s:so_save | let &g:siso = s:siso_save
 set hlsearch
 doautoall SessionLoadPost

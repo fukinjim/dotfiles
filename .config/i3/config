@@ -141,6 +141,7 @@ bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 assign [class="qutebrowser"] $ws1
 assign [class="Slack"] $ws4
 assign [class="librewolf"] $ws1
+assign [class="Google-chrome"] $ws1
 assign [instance="SHELL"] $ws2
 assign [instance="SoulseekQt"] $ws3
 
@@ -247,3 +248,5 @@ mode "$mode_gaps_outer" {
 	bindsym Return mode "default"
 	bindsym Escape mode "default"
 }
+
+exec ~/scripts/i3-restore/i3-restore

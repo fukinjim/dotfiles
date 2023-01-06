@@ -89,3 +89,5 @@ function zle-keymap-select {
 
 eval "$(lua ~/scripts/z.lua --init zsh enhanced)"
 
+
+eval $(thefuck --alias)

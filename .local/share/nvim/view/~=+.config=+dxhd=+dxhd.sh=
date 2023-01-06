@@ -15,18 +15,18 @@ silent! normal! zE
 31,34fold
 38,44fold
 35,44fold
-45,52fold
-53,56fold
-57,64fold
-65,68fold
-69,72fold
-73,76fold
-81,84fold
-85,88fold
-89,92fold
-93,96fold
-97,99fold
-109,112fold
+45,54fold
+55,58fold
+59,66fold
+67,70fold
+71,74fold
+75,78fold
+83,86fold
+87,90fold
+91,94fold
+95,98fold
+99,101fold
+111,114fold
 let &fdl = &fdl
 7
 normal! zo
@@ -38,28 +38,28 @@ normal! zo
 normal! zo
 45
 normal! zo
-53
+55
 normal! zo
-57
+59
 normal! zo
-69
+71
 normal! zo
-81
+83
 normal! zo
-85
+87
 normal! zo
-93
+95
 normal! zo
-97
+99
 normal! zo
-109
+111
 normal! zo
-let s:l = 94 - ((13 * winheight(0) + 11) / 22)
+let s:l = 49 - ((10 * winheight(0) + 11) / 22)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 94
-normal! 011|
+keepjumps 49
+normal! 020|
 let &g:so = s:so_save | let &g:siso = s:siso_save
 set hlsearch
 doautoall SessionLoadPost

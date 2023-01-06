@@ -13,7 +13,6 @@ source ~/.config/nvim/pluginconfig/hexokinase.vim
 source ~/.config/nvim/pluginconfig/nerdtree.vim
 source ~/.config/nvim/pluginconfig/quickscope.vim
 source ~/.config/nvim/pluginconfig/restoreview.vim
-" source ~/.config/nvim/pluginconfig/startify.vim
 source ~/.config/nvim/pluginconfig/supertab.vim
 source ~/.config/nvim/pluginconfig/undotree.vim
 source ~/.config/nvim/pluginconfig/whichkey.vim

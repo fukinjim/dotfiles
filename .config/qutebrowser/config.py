@@ -149,6 +149,10 @@ config.set('content.javascript.enabled', True, 'chrome://*/*')
 # Type: Bool
 config.set('content.javascript.enabled', True, 'qute://*/*')
 
+# List of user stylesheet filenames to use.
+# Type: List of File, or File
+c.content.user_stylesheets = []
+
 # Directory to save downloads to. If unset, a sensible OS-specific
 # default is used.
 # Type: Directory
@@ -265,11 +269,16 @@ c.url.open_base_url = False
 # the search engine name to the search term, e.g. `:open google
 # qutebrowser`.
 # Type: Dict
-c.url.searchengines = {'DEFAULT': 'https://duckgo.com/?q={}', 'i': 'https://duckduckgo.com/?q={}&iax=images&ia=images', 'c': 'https://vancouver.craigslist.org/d/for-sale/search/sss?query={}&sort=rel', 'a': 'https://wiki.archlinux.org/index.php?search={}&title=Special%3ASearch&go=Go', 'am': 'https://www.amazon.ca/s?k={}', 'aur': 'https://aur.archlinux.org/packages/?O=0&K={}', 'b': 'https://bandcamp.com/search?q={}', 'books': 'https://ca1lib.org/s/{}', 'd': 'https://www.discogs.com/search/?q={}&type=all', 'da': 'https://www.discogs.com/search/?q={}&type=artist', 'g': 'https://github.com/search?q={}', 'ranger': 'https://lists.nongnu.org/archive/cgi-bin/namazu.cgi?query={}&submit=Search%21&idxname=ranger-users&max=20&result=normal&sort=score', 't': 'https://funlx.site/search?q={}&_u=jss1i167ok&_t=ni58sk&_rsrc=chrome/newtab', 'v': 'https://vimawesome.com/?q={}', 'w': 'https://wallpapercave.com/search?q={}', 'y': 'https://www.youtube.com/results?search_query={}'}
+c.url.searchengines = {'DEFAULT': 'https://duckgo.com/?q={}', 'wood': 'https://www.wood-database.com/?s={}', 'a': 'https://wiki.archlinux.org/index.php?search={}&title=Special%3ASearch&go=Go', 'am': 'https://www.amazon.ca/s?k={}', 'aur': 'https://aur.archlinux.org/packages/?O=0&K={}', 'b': 'https://bandcamp.com/search?q={}', 'books': 'https://annas-archive.org/search?lang=&content=&ext=&sort=&q={}', 'c': 'https://vancouver.craigslist.org/d/for-sale/search/sss?query={}&sort=rel', 'd': 'https://www.discogs.com/search/?q={}&type=all', 'da': 'https://www.discogs.com/search/?q={}&type=artist', 'g': 'https://github.com/search?q={}', 'i': 'https://duckduckgo.com/?q={}&iax=images&ia=images', 'ranger': 'https://lists.nongnu.org/archive/cgi-bin/namazu.cgi?query={}&submit=Search%21&idxname=ranger-users&max=20&result=normal&sort=score', 't': 'https://funlx.site/search?q={}&_u=jss1i167ok&_t=ni58sk&_rsrc=chrome/newtab', 'v': 'https://vimawesome.com/?q={}', 'w': 'https://wallpapercave.com/search?q={}', 'y': 'https://www.youtube.com/results?search_query={}'}
 
 # Page(s) to open at the start.
 # Type: List of FuzzyUrl, or FuzzyUrl
 c.url.start_pages = 'https://start.duckduckgo.com'
+
+# Hide the window decoration.  This setting requires a restart on
+# Wayland.
+# Type: Bool
+c.window.hide_decoration = True
 
 # Render all web contents using a dark theme. Example configurations
 # from Chromium's `chrome://flags`:  - "With simple HSL/CIELAB/RGB-based
@@ -294,7 +303,7 @@ c.colors.webpage.darkmode.grayscale.all = False
 # either a float value with a "pt" suffix, or an integer value with a
 # "px" suffix.
 # Type: String
-c.fonts.default_size = '9pt'
+c.fonts.default_size = '12pt'
 
 # Font used for the context menu. If set to null, the Qt default is
 # used.
@@ -311,7 +320,7 @@ c.fonts.downloads = 'default_size default_family'
 
 # Font used for the hints.
 # Type: Font
-c.fonts.hints = 'bold 9pt default_family'
+c.fonts.hints = 'bold default_size default_family'
 
 # Font used in the keyhint widget.
 # Type: Font
@@ -323,19 +332,19 @@ c.fonts.messages.error = 'default_size default_family'
 
 # Font used for prompts.
 # Type: Font
-c.fonts.prompts = '9pt sans-serif'
+c.fonts.prompts = 'default_size sans-serif'
 
 # Font used in the statusbar.
 # Type: Font
-c.fonts.statusbar = '9pt default_family'
+c.fonts.statusbar = 'default_size default_family'
 
 # Font used for selected tabs.
 # Type: Font
-c.fonts.tabs.selected = '9pt default_family'
+c.fonts.tabs.selected = 'default_size default_family'
 
 # Font used for unselected tabs.
 # Type: Font
-c.fonts.tabs.unselected = '9pt default_family'
+c.fonts.tabs.unselected = 'default_size default_family'
 
 # Font family for cursive fonts.
 # Type: FontFamily
@@ -347,11 +356,11 @@ c.fonts.web.family.fantasy = None
 
 # Default font size (in pixels) for regular text.
 # Type: Int
-c.fonts.web.size.default = 14
+c.fonts.web.size.default = 16
 
 # Default font size (in pixels) for fixed-pitch text.
 # Type: Int
-c.fonts.web.size.default_fixed = 14
+c.fonts.web.size.default_fixed = 16
 
 # Hard minimum font size (in pixels).
 # Type: Int

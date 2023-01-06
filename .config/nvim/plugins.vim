@@ -19,7 +19,6 @@ Plug 'townk/vim-autoclose'
 Plug 'folke/which-key.nvim'
 Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
 Plug 'vim-scripts/restore_view.vim'
-" Plug 'mhinz/vim-startify'
 Plug 'morhetz/gruvbox'
 Plug 'ervandew/supertab'
 Plug 'vim-airline/vim-airline'

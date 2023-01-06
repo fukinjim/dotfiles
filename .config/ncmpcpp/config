@@ -76,6 +76,7 @@ song_columns_list_format = "(6)[cyan]{l} (4)[cyan]{n} (30)[cyan]{t} (25)[cyan]{a
 fetch_lyrics_for_current_song_in_background = no
 store_lyrics_in_song_dir = yes
 locked_screen_width_part = 50
+startup_slave_screen = browser
 ask_for_locked_screen_width_part = no
 volume_change_step = 1
 display_volume_level = yes
