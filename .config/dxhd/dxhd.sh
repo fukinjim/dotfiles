@@ -49,6 +49,9 @@ qutebrowser
 google-chrome-stable
 # super + shift +w 
 librewolf
+## super + shift +w 
+## google-chrome-stable --incognito
+
 # super + b
 bmks
 
@@ -102,11 +105,11 @@ dmenu_run_history
 
 ## i3 exit
 # super + alt + e
-~/scripts/i3-restore/i3-save && i3-msg exit
+i3-save && i3-msg exit
 
 ## i3 exit script
 # super + shift + e
-~/.config/i3/exit_menu.sh
+i3-save && ~/.config/i3/exit_menu.sh
 
 ## ip address
 # super + i
@@ -120,3 +123,10 @@ notify-send "$(hostname -i)"
 # super + shift + i
 setxkbmap -option caps:escape && xmodmap ~/.Xmodmap
 
+## Reboot
+# super + shift + F12
+i3-save && reboot
+
+## Shutdown
+# super + F12
+i3-save && shutdown now

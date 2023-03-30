@@ -1,5 +1,5 @@
 typeset -U PATH path
-path=("$HOME/.local/bin" "$HOME/.config/nnn/plugins" "/home/andrew/scripts/fzf_speed" "/home/andrew/scripts" "/usr/lib/surfraw" "$path[@]")
+path=("$HOME/.local/bin" "$HOME/.config/nnn/plugins" "/home/andrew/scripts/i3-restore" "/home/andrew/scripts/fzf_speed" "/home/andrew/scripts" "/usr/lib/surfraw" "$path[@]")
 export PATH
 #Clipmenu options
 export CM_SELECTIONS="clipboard"

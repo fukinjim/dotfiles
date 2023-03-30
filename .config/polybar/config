@@ -56,7 +56,7 @@ modules-left = i3
 modules-center = mpd
 ; modules-right = pulseaudio wlan battery temperature dpms date updates-pacman-aurhelper 
 
-modules-right = DAC pulseaudio wlan battery dpms date updates-pacman-aurhelper 
+modules-right = DAC pulseaudio wlan dpms date updates-pacman-aurhelper 
 tray-position = right
 tray-padding = 2
 
@@ -131,7 +131,7 @@ bar-progress-empty = ─
 [module/wlan]
 type = internal/network
 interface = wlan0
-interval = 3.0
+interval = 3
 
 format-connected = <ramp-signal> 
 label-connected = %essid%

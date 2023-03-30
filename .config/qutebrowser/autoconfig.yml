@@ -14,12 +14,14 @@ settings:
         <F2>: config-write-py --force
         <F3>: config-source
         B: bookmark-add
+        C: hint links spawn catt cast {hint-url}
         M: hint links spawn tsp mpv --ontop --autofit=1000x780 {hint-url}
         cc: config-cycle content.user_stylesheets /home/andrew/.local/share/solarized-everything-css/css/darculized/darculized-all-sites.css
           /home/andrew/.local/share/solarized-everything-css/css/gruvbox/gruvbox-all-sites.css
           /home/andrew/.local/share/solarized-everything-css/css/apprentice/apprentice-all-sites.css
           /home/andrew/.local/share/solarized-everything-css/css/solarized-dark/solarized-dark-all-sites.css
           ""
+        gr: open -t review {url:pretty}
         q: null
         t: set-cmd-text -s :open -t
         ws: spawn surf {url}
@@ -28,24 +30,7 @@ settings:
         ys: hint links spawn st -n download -e youtube-dl  -o "~/Music/Tunes/0000--New--0000/00--Singles/%(title)s.%(ext)s"
           -x --audio-format flac --audio-quality 0 {hint-url}
         yv: hint links spawn st -n download -e youtube-dl {hint-url}
-  content.user_stylesheets:
-    global: null
-  url.searchengines:
-    global:
-      DEFAULT: https://duckgo.com/?q={}
-      a: https://wiki.archlinux.org/index.php?search={}&title=Special%3ASearch&go=Go
-      am: https://www.amazon.ca/s?k={}
-      aur: https://aur.archlinux.org/packages/?O=0&K={}
-      b: https://bandcamp.com/search?q={}
-      books: https://annas-archive.org/search?lang=&content=&ext=&sort=&q={}
-      c: https://vancouver.craigslist.org/d/for-sale/search/sss?query={}&sort=rel
-      d: https://www.discogs.com/search/?q={}&type=all
-      da: https://www.discogs.com/search/?q={}&type=artist
-      g: https://github.com/search?q={}
-      i: https://duckduckgo.com/?q={}&iax=images&ia=images
-      ranger: https://lists.nongnu.org/archive/cgi-bin/namazu.cgi?query={}&submit=Search%21&idxname=ranger-users&max=20&result=normal&sort=score
-      t: https://funlx.site/search?q={}&_u=jss1i167ok&_t=ni58sk&_rsrc=chrome/newtab
-      v: https://vimawesome.com/?q={}
-      w: https://wallpapercave.com/search?q={}
-      wood: https://www.wood-database.com/?s={}
-      y: https://www.youtube.com/results?search_query={}
+  downloads.location.suggestion:
+    global: both
+  prompt.filebrowser:
+    global: true

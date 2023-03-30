@@ -16,7 +16,12 @@ config.load_autoconfig(False)
 # Aliases for commands. The keys of the given dictionary are the
 # aliases, while the values are the commands they map to.
 # Type: Dict
-c.aliases = {'w': 'session-save', 'q': 'close', 'qa': 'quit', 'wq': 'quit --save', 'wqa': 'quit --save'}
+c.aliases = {'q': 'close', 'qa': 'quit', 'w': 'session-save', 'wq': 'quit --save', 'wqa': 'quit --save'}
+
+# Time interval (in milliseconds) between auto-saves of
+# config/cookies/etc.
+# Type: Int
+c.auto_save.interval = 15000
 
 # Which cookies to accept. With QtWebEngine, this setting also controls
 # other features with tracking capabilities similar to those of cookies;
@@ -65,6 +70,14 @@ config.set('content.cookies.accept', 'all', 'chrome-devtools://*')
 #   - no-unknown-3rdparty: Accept cookies from the same origin only, unless a cookie is already set for the domain. On QtWebEngine, this is the same as no-3rdparty.
 #   - never: Don't accept cookies at all.
 config.set('content.cookies.accept', 'all', 'devtools://*')
+
+# Allow websites to request geolocations.
+# Type: BoolAsk
+# Valid values:
+#   - true
+#   - false
+#   - ask
+config.set('content.geolocation', False, 'https://www.bestbuy.ca')
 
 # Value to send in the `Accept-Language` header. Note that the value
 # read from JavaScript is always the global value.
@@ -158,6 +171,14 @@ c.content.user_stylesheets = []
 # Type: Directory
 c.downloads.location.directory = '~/Downloads'
 
+# What to display in the download filename input.
+# Type: String
+# Valid values:
+#   - path: Show only the download path.
+#   - filename: Show only download filename.
+#   - both: Show download path and filename.
+c.downloads.location.suggestion = 'both'
+
 # Which categories to show (in which order) in the :open completion.
 # Type: FlagList
 # Valid values:
@@ -229,6 +250,10 @@ c.hints.dictionary = '/usr/share/dict/words'
 # Type: Bool
 c.hints.uppercase = True
 
+# Show a filebrowser in download prompts.
+# Type: Bool
+c.prompt.filebrowser = True
+
 # How to behave when the last tab is closed. If the
 # `tabs.tabs_are_windows` setting is set, this is ignored and the
 # behavior is always identical to the `close` value.
@@ -269,7 +294,7 @@ c.url.open_base_url = False
 # the search engine name to the search term, e.g. `:open google
 # qutebrowser`.
 # Type: Dict
-c.url.searchengines = {'DEFAULT': 'https://duckgo.com/?q={}', 'wood': 'https://www.wood-database.com/?s={}', 'a': 'https://wiki.archlinux.org/index.php?search={}&title=Special%3ASearch&go=Go', 'am': 'https://www.amazon.ca/s?k={}', 'aur': 'https://aur.archlinux.org/packages/?O=0&K={}', 'b': 'https://bandcamp.com/search?q={}', 'books': 'https://annas-archive.org/search?lang=&content=&ext=&sort=&q={}', 'c': 'https://vancouver.craigslist.org/d/for-sale/search/sss?query={}&sort=rel', 'd': 'https://www.discogs.com/search/?q={}&type=all', 'da': 'https://www.discogs.com/search/?q={}&type=artist', 'g': 'https://github.com/search?q={}', 'i': 'https://duckduckgo.com/?q={}&iax=images&ia=images', 'ranger': 'https://lists.nongnu.org/archive/cgi-bin/namazu.cgi?query={}&submit=Search%21&idxname=ranger-users&max=20&result=normal&sort=score', 't': 'https://funlx.site/search?q={}&_u=jss1i167ok&_t=ni58sk&_rsrc=chrome/newtab', 'v': 'https://vimawesome.com/?q={}', 'w': 'https://wallpapercave.com/search?q={}', 'y': 'https://www.youtube.com/results?search_query={}'}
+c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}&hps=1&start=1&ia=definition', 'a': 'https://wiki.archlinux.org/index.php?search={}&title=Special%3ASearch&go=Go', 'am': 'https://www.amazon.ca/s?k={}', 'aur': 'https://aur.archlinux.org/packages/?O=0&K={}', 'b': 'https://bandcamp.com/search?q={}', 'books': 'https://annas-archive.org/search?lang=&content=&ext=&sort=&q={}', 'c': 'https://vancouver.craigslist.org/d/for-sale/search/sss?query={}&sort=rel', 'd': 'https://www.discogs.com/search/?q={}&type=all', 'da': 'https://www.discogs.com/search/?q={}&type=artist', 'g': 'https://github.com/search?q={}', 'hd': 'https://www.homedepot.ca/search?q=cushion#!q={}', 'i': 'https://duckduckgo.com/?q={}&iax=images&ia=images', 'l': 'https://www.leevalley.com/en-ca/search#q={}&t=product-search-tab&sort=relevancy&layout=card&numberOfResults=100', 'maps': 'https://www.google.com/maps/search/{}/@49.2968726,-123.0960429,12z/data=!3m1!4b1', 'ranger': 'https://lists.nongnu.org/archive/cgi-bin/namazu.cgi?query={}&submit=Search%21&idxname=ranger-users&max=20&result=normal&sort=score', 'review': 'https://reviewmeta.com/search?q={}', 't': 'https://funlx.site/search?q={}&_u=jss1i167ok&_t=ni58sk&_rsrc=chrome/newtab', 'v': 'https://vimawesome.com/?q={}', 'vpl': 'https://vpl.bibliocommons.com/v2/search?query={}&searchType=smart', 'w': 'https://wallpapercave.com/search?q={}', 'wood': 'https://www.wood-database.com/?s={}', 'y': 'https://www.youtube.com/results?search_query={}'}
 
 # Page(s) to open at the start.
 # Type: List of FuzzyUrl, or FuzzyUrl
@@ -387,8 +412,10 @@ config.bind('<Ctrl+o>', 'set-cmd-text -s :open -p')
 config.bind('<F2>', 'config-write-py --force')
 config.bind('<F3>', 'config-source')
 config.bind('B', 'bookmark-add')
+config.bind('C', 'hint links spawn catt cast {hint-url}')
 config.bind('M', 'hint links spawn tsp mpv --ontop --autofit=1000x780 {hint-url}')
 config.bind('cc', 'config-cycle content.user_stylesheets /home/andrew/.local/share/solarized-everything-css/css/darculized/darculized-all-sites.css /home/andrew/.local/share/solarized-everything-css/css/gruvbox/gruvbox-all-sites.css /home/andrew/.local/share/solarized-everything-css/css/apprentice/apprentice-all-sites.css /home/andrew/.local/share/solarized-everything-css/css/solarized-dark/solarized-dark-all-sites.css ""')
+config.bind('gr', 'open -t review {url:pretty}')
 config.unbind('q')
 config.bind('t', 'set-cmd-text -s :open -t')
 config.bind('ws', 'spawn surf {url}')
