@@ -1,0 +1,54 @@
+#!/bin/sh
+
+# Configurations
+cfg-bm() { $EDITOR $HOME/.config/surfraw/bookmarks}
+cfg-dwm() { $EDITOR $HOME/.local/src/dwm/config.h;}
+cfg-dwmblocks() { $EDITOR $HOME/.local/src/dwmblocks/config.h;}
+cfg-Editor() { $EDITOR /home/andrew/.config/nvim/init.vim ;}
+cfg-Env() { $EDITOR $HOME/.zshenv && source $HOME/.zshenv ;}
+cfg-newsbeuter-feeds() { $EDITOR $HOME/.newsbeuter/urls ;}
+cfg-hotkeys() { $EDITOR $HOME/.config/dxhd/dxhd.sh && dxhd -r;}
+cfg-i3() { $EDITOR $HOME/.config/i3/config ;}
+cfg-keymap() { sudo $EDITOR /usr/share/kbd/keymaps/i386/qwerty/my-us.map ;}
+cfg-mpd() { $EDITOR /home/andrew/.config/mpd/mpd.conf;}
+cfg-mpv() { $EDITOR /home/andrew/.config/mpv/mpv.conf;}
+cfg-mutt() { $EDITOR $HOME/.muttrc ;}
+cfg-ncmpcpp() { $EDITOR $XDG_CONFIG_DIR/ncmpcpp/config ;}
+cfg-newsbeuter() { $EDITOR $HOME/.newsbeuter/config ;}
+cfg-picom() { $EDITOR $HOME/.config/picom.conf;}
+cfg-polybar() { $EDITOR $HOME/.config/polybar/config; }
+cfg-qutebrowser() { $EDITOR $HOME/.config/qutebrowser/config.py;}
+cfg-ranger() { $EDITOR $HOME/.config/ranger/rc.conf ;}
+cfg-Shell() { $EDITOR $HOME/.zshrc && source $HOME/.zshrc ;}
+cfg-snip() { $EDITOR $HOME/Documents/ComputerStuff/Tricks.txt ;}
+cfg-surfraw() { $EDITOR $HOME/.surfraw.conf ;}
+cfg-tmux() { $EDITOR $XDG_CONFIG_DIR/tmux/tmux.conf && tmux source $XDG_CONFIG_DIR/tmux/tmux.conf ;}
+cfg-transmission-rss() { sudo $EDITOR /etc/transmission-rss.conf ;}
+cfg-trc() { $EDITOR $HOME/.config/transmission-remote-cli/settings.cfg ;}
+cfg-w3m() { $EDITOR $HOME/.w3m/config ;}
+cfg-w3mkeys() { $EDITOR $HOME/.w3m/keymap ;}
+cfg-xdefaults() { $EDITOR $HOME/.Xdefaults;}
+cfg-xinitrc() { $EDITOR $HOME/.xinitrc ;}
+cfg-xresources() { $EDITOR $HOME/.Xresources;}
+cfg-zprofile() { $EDITOR $HOME/.zprofile ;}
+
+# Functions
+rangercd () {
+    tmp="$(mktemp)"
+    ranger --choosedir="$tmp" "$@"
+    if [ -f "$tmp" ]; then
+        dir="$(cat "$tmp")"
+        rm -f "$tmp" >/dev/null
+        [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
+    fi
+}
+bindkey -s '^o' 'rangercd\n'
+					
+fcd() {
+	cd "$(find -type d | fzf)"
+}
+
+open() {# {{{
+	xdg-open "$(find -type f | fzf)"
+}
+
